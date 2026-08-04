@@ -4,6 +4,7 @@ __pycache__/
 *.pyo
 *.pyd
 .graphify-venv/
+.venv/
 
 # Node / frontend
 frontend/node_modules/
