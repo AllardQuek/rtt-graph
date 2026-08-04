@@ -1,0 +1,2280 @@
+{
+  "nodes": [
+    {
+      "id": "alcohol",
+      "label": "Alcohol",
+      "x": 845.6927398282327,
+      "y": 407.39154911222334,
+      "r": 15.0,
+      "count": 20,
+      "category": "Alcohol / Road Safety",
+      "topic": "Alcohol / Road Safety",
+      "color": "#ef4444",
+      "questionIds": [
+        "6800a128460012b432cb6223:67318011edb5f0662805f0d8",
+        "6800a128460012b432cb6223:67318f8c27aeb3ce5c571ecd",
+        "6800a128460012b432cb6223:6731936427aeb3ce5c57f8e8",
+        "6800a128460012b432cb6223:6731ac05c9064112eadb58e9",
+        "6800a128460012b432cb6223:673af16f25d25160d519989c",
+        "6800a128460012b432cb6223:67d0eff4186c9746b6e4f9ac",
+        "6800a128460012b432cb6223:67d0f0bee6c56d64f155257b",
+        "6800a128460012b432cb6223:67d0f1c32bd7fa4094849780",
+        "6800a128460012b432cb6223:67d0f6e814ef0505bb0dd88b",
+        "6800a128460012b432cb6223:67d10312618e82f7e1341ea0",
+        "6800a128460012b432cb6223:67d10397346de42dddeed8b5",
+        "6800a128460012b432cb6223:67d103dfba7c5cbd1f2e4912",
+        "6800a128460012b432cb6223:67d10444b148cbb2a00c77d1",
+        "6800a128460012b432cb6223:67d105b75e7738adf6626631",
+        "6800a128460012b432cb6223:67d105f9a748faa00fd55644",
+        "6800a128460012b432cb6223:67d1069659703608767cad4d",
+        "6800a128460012b432cb6223:67d106d2e3673a50102712a0",
+        "6800a128460012b432cb6223:67d10749a5fdc2bbf2f3f374",
+        "6800a128460012b432cb6223:67d1078eba7c5cbd1f2f21e4",
+        "6800a128460012b432cb6223:67d107fd9a9b271dd2efc94a"
+      ]
+    },
+    {
+      "id": "ambulance",
+      "label": "Ambulance",
+      "x": 960.0,
+      "y": 501.7698354667315,
+      "r": 6.9,
+      "count": 2,
+      "category": "Alcohol / Road Safety",
+      "topic": "Alcohol / Road Safety",
+      "color": "#ef4444",
+      "questionIds": [
+        "6800a128460012b432cb6223:6731ac05c9064112eadb58e9",
+        "6848ff9a095c7f327aa1d12e:67d106d2e3673a50102712a0"
+      ]
+    },
+    {
+      "id": "bend",
+      "label": "Bend / Corner",
+      "x": 768.0850322958033,
+      "y": 742.200087110353,
+      "r": 16.8,
+      "count": 24,
+      "category": "Competency Questions Set 2",
+      "topic": "Competency",
+      "color": "#8b5cf6",
+      "questionIds": [
+        "67f86c56b7134495e565a84c:67d0f0bee6c56d64f155257b",
+        "6805c8ce68c71eb0163eb97d:67d10444b148cbb2a00c77d1",
+        "682ee7b784b65a470cd6d417:67318f8c27aeb3ce5c571ecd",
+        "682ee7b784b65a470cd6d417:67d105f9a748faa00fd55644",
+        "682ee7b784b65a470cd6d417:67d1078eba7c5cbd1f2f21e4",
+        "682ee7b784b65a470cd6d417:67d107fd9a9b271dd2efc94a",
+        "682fec4b79ffe8bbec2a3931:67318011edb5f0662805f0d8",
+        "682fec4b79ffe8bbec2a3931:67318f8c27aeb3ce5c571ecd",
+        "682fec4b79ffe8bbec2a3931:67d0f6e814ef0505bb0dd88b",
+        "682fec4b79ffe8bbec2a3931:67d10397346de42dddeed8b5",
+        "682fec4b79ffe8bbec2a3931:67d107fd9a9b271dd2efc94a",
+        "6833beed2f0a7ff010213baf:67318011edb5f0662805f0d8",
+        "6833beed2f0a7ff010213baf:67d0f6e814ef0505bb0dd88b",
+        "6833beed2f0a7ff010213baf:67d107fd9a9b271dd2efc94a",
+        "6834108eb1501f0fca41701d:67d0eff4186c9746b6e4f9ac",
+        "6834108eb1501f0fca41701d:67d0f1c32bd7fa4094849780",
+        "6834108eb1501f0fca41701d:67d10749a5fdc2bbf2f3f374",
+        "68351f44397a84e42dad983a:6731ac05c9064112eadb58e9",
+        "68351f44397a84e42dad983a:67d0f6e814ef0505bb0dd88b",
+        "68351f44397a84e42dad983a:68352bea6e9a35e99949a757",
+        "68351f44397a84e42dad983a:68352c135ee546698d673619",
+        "683662bd6dd7ac33fb27d108:67d107fd9a9b271dd2efc94a",
+        "6848ff9a095c7f327aa1d12e:6731936427aeb3ce5c57f8e8",
+        "684aa0d296f20e38e9c864c2:684aa2c1bce68bf78d782417"
+      ]
+    },
+    {
+      "id": "blind-spot",
+      "label": "Blind Spot",
+      "x": 212.82406091743476,
+      "y": 273.5270310378862,
+      "r": 10.95,
+      "count": 11,
+      "category": "Road Safety Questions Set 1",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "6800b808b7134495e54dfbd7:6731936427aeb3ce5c57f8e8",
+        "6800b808b7134495e54dfbd7:67d105f9a748faa00fd55644",
+        "6800b808b7134495e54dfbd7:67d1069659703608767cad4d",
+        "6800b808b7134495e54dfbd7:67d10749a5fdc2bbf2f3f374",
+        "6805c8ce68c71eb0163eb97d:67d0f1c32bd7fa4094849780",
+        "6805c8ce68c71eb0163eb97d:67d0f6e814ef0505bb0dd88b",
+        "6805c8ce68c71eb0163eb97d:67d10312618e82f7e1341ea0",
+        "6805c8ce68c71eb0163eb97d:67d105b75e7738adf6626631",
+        "6806f42adb22d4178372d9b9:67d0f0bee6c56d64f155257b",
+        "6806f42adb22d4178372d9b9:67d10444b148cbb2a00c77d1",
+        "68351f44397a84e42dad983a:68352c9d03e872f9068811fa"
+      ]
+    },
+    {
+      "id": "braking",
+      "label": "Braking",
+      "x": 801.7789887634176,
+      "y": 853.0349753168239,
+      "r": 22,
+      "count": 58,
+      "category": "Competency Questions Set 3",
+      "topic": "Competency",
+      "color": "#8b5cf6",
+      "questionIds": [
+        "6805c8ce68c71eb0163eb97d:673af16f25d25160d519989c",
+        "6805c8ce68c71eb0163eb97d:67d0eff4186c9746b6e4f9ac",
+        "6805c8ce68c71eb0163eb97d:67d0f1c32bd7fa4094849780",
+        "6805c8ce68c71eb0163eb97d:67d0f6e814ef0505bb0dd88b",
+        "6806f42adb22d4178372d9b9:67d0eff4186c9746b6e4f9ac",
+        "6806f42adb22d4178372d9b9:67d10444b148cbb2a00c77d1",
+        "6806f42adb22d4178372d9b9:67d105b75e7738adf6626631",
+        "68074118db22d4178385bb9c:67d0f0bee6c56d64f155257b",
+        "682ee7b784b65a470cd6d417:67d0f1c32bd7fa4094849780",
+        "682ee7b784b65a470cd6d417:67d0f6e814ef0505bb0dd88b",
+        "682ee7b784b65a470cd6d417:67d10397346de42dddeed8b5",
+        "682ee7b784b65a470cd6d417:67d103dfba7c5cbd1f2e4912",
+        "682ee7b784b65a470cd6d417:67d10444b148cbb2a00c77d1",
+        "682ee7b784b65a470cd6d417:67d106d2e3673a50102712a0",
+        "682fec4b79ffe8bbec2a3931:67d103dfba7c5cbd1f2e4912",
+        "6833beed2f0a7ff010213baf:67318f8c27aeb3ce5c571ecd",
+        "6833beed2f0a7ff010213baf:6731936427aeb3ce5c57f8e8",
+        "6833beed2f0a7ff010213baf:6731ac05c9064112eadb58e9",
+        "6833beed2f0a7ff010213baf:673af16f25d25160d519989c",
+        "6833beed2f0a7ff010213baf:67d0eff4186c9746b6e4f9ac",
+        "6833beed2f0a7ff010213baf:67d0f1c32bd7fa4094849780",
+        "6833beed2f0a7ff010213baf:67d105b75e7738adf6626631",
+        "6833beed2f0a7ff010213baf:67d105f9a748faa00fd55644",
+        "6833beed2f0a7ff010213baf:67d1069659703608767cad4d",
+        "6833beed2f0a7ff010213baf:67d107fd9a9b271dd2efc94a",
+        "6834108eb1501f0fca41701d:67318011edb5f0662805f0d8",
+        "6834108eb1501f0fca41701d:6731936427aeb3ce5c57f8e8",
+        "6834108eb1501f0fca41701d:6731ac05c9064112eadb58e9",
+        "6834108eb1501f0fca41701d:67d103dfba7c5cbd1f2e4912",
+        "6834108eb1501f0fca41701d:67d106d2e3673a50102712a0",
+        "68351f44397a84e42dad983a:67d106d2e3673a50102712a0",
+        "68351f44397a84e42dad983a:68352c135ee546698d673619",
+        "683662bd6dd7ac33fb27d108:67318011edb5f0662805f0d8",
+        "683662bd6dd7ac33fb27d108:67d0eff4186c9746b6e4f9ac",
+        "683662bd6dd7ac33fb27d108:67d0f0bee6c56d64f155257b",
+        "683662bd6dd7ac33fb27d108:67d0f6e814ef0505bb0dd88b",
+        "683662bd6dd7ac33fb27d108:67d10312618e82f7e1341ea0",
+        "683662bd6dd7ac33fb27d108:67d10444b148cbb2a00c77d1",
+        "683662bd6dd7ac33fb27d108:67d1069659703608767cad4d",
+        "683662bd6dd7ac33fb27d108:68352c70a990b6224d3828c7",
+        "6836c1c8f878ba84cbb587b8:67318f8c27aeb3ce5c571ecd",
+        "6836c1c8f878ba84cbb587b8:673af16f25d25160d519989c",
+        "6836c1c8f878ba84cbb587b8:67d0f0bee6c56d64f155257b",
+        "6836c1c8f878ba84cbb587b8:67d10444b148cbb2a00c77d1",
+        "6836c1c8f878ba84cbb587b8:67d105f9a748faa00fd55644",
+        "683822236f838064b3540579:6731ac05c9064112eadb58e9",
+        "683822236f838064b3540579:673af16f25d25160d519989c",
+        "683822236f838064b3540579:67d10749a5fdc2bbf2f3f374",
+        "683822236f838064b3540579:67d1078eba7c5cbd1f2f21e4",
+        "683822236f838064b3540579:68382720126999283ed6baba"
+      ]
+    },
+    {
+      "id": "bus-lane",
+      "label": "Bus Lane",
+      "x": 577.8545076342917,
+      "y": 146.64589013306397,
+      "r": 7.8,
+      "count": 4,
+      "category": "Traffic Rules Set 2",
+      "topic": "Traffic Rules",
+      "color": "#3b82f6",
+      "questionIds": [
+        "682d6f8b810acfbebc499aed:67d1078eba7c5cbd1f2f21e4",
+        "682d9778d30b190eea3d7550:6731936427aeb3ce5c57f8e8",
+        "682d9778d30b190eea3d7550:67d107fd9a9b271dd2efc94a",
+        "682d9778d30b190eea3d7550:682d9a5aca72253b481c4177"
+      ]
+    },
+    {
+      "id": "cyclist",
+      "label": "Cyclist",
+      "x": 146.3365308568097,
+      "y": 193.71857554834162,
+      "r": 17.25,
+      "count": 25,
+      "category": "Road Safety Questions Set 5",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "67f86c56b7134495e565a84c:67d10444b148cbb2a00c77d1",
+        "67f86c56b7134495e565a84c:67d1069659703608767cad4d",
+        "6800b808b7134495e54dfbd7:67d106d2e3673a50102712a0",
+        "6800b808b7134495e54dfbd7:67d107fd9a9b271dd2efc94a",
+        "6806f42adb22d4178372d9b9:67d0eff4186c9746b6e4f9ac",
+        "68074118db22d4178385bb9c:67d0f1c32bd7fa4094849780",
+        "6834108eb1501f0fca41701d:673af16f25d25160d519989c",
+        "683662bd6dd7ac33fb27d108:67d1069659703608767cad4d",
+        "683822236f838064b3540579:67d0eff4186c9746b6e4f9ac",
+        "683822236f838064b3540579:67d103dfba7c5cbd1f2e4912",
+        "683822236f838064b3540579:67d10444b148cbb2a00c77d1",
+        "683822236f838064b3540579:67d1069659703608767cad4d",
+        "68466648654b48845d78f309:67d105b75e7738adf6626631",
+        "684aa0d296f20e38e9c864c2:673af16f25d25160d519989c",
+        "684aa0d296f20e38e9c864c2:67d0f6e814ef0505bb0dd88b",
+        "684aa0d296f20e38e9c864c2:67d10397346de42dddeed8b5",
+        "684aa0d296f20e38e9c864c2:67d10444b148cbb2a00c77d1",
+        "684aa0d296f20e38e9c864c2:67d105b75e7738adf6626631",
+        "684aa0d296f20e38e9c864c2:684aa2cebce68bf78d782719",
+        "684aa0d296f20e38e9c864c2:684aa2cbbd10300a252fc861",
+        "684aa0d296f20e38e9c864c2:684aa2c9f6532b13a03aa220",
+        "684aa0d296f20e38e9c864c2:684aa2c437631ffc9563d88c",
+        "684aa0d296f20e38e9c864c2:684aa2d7810a653b411602f6",
+        "684aa0d296f20e38e9c864c2:684aa2ddf4af7c93f1628d24",
+        "684aa0d296f20e38e9c864c2:684aa2dbd6e30a1cb1512bbe"
+      ]
+    },
+    {
+      "id": "demerit-points",
+      "label": "Demerit Points",
+      "x": 687.2245821263549,
+      "y": 76.20749404432254,
+      "r": 12.3,
+      "count": 14,
+      "category": "Traffic Rules Set 1",
+      "topic": "Traffic Rules",
+      "color": "#3b82f6",
+      "questionIds": [
+        "682d6f8b810acfbebc499aed:67318011edb5f0662805f0d8",
+        "682d6f8b810acfbebc499aed:67318f8c27aeb3ce5c571ecd",
+        "682d6f8b810acfbebc499aed:6731936427aeb3ce5c57f8e8",
+        "682d6f8b810acfbebc499aed:6731ac05c9064112eadb58e9",
+        "682d6f8b810acfbebc499aed:673af16f25d25160d519989c",
+        "682d6f8b810acfbebc499aed:67d0eff4186c9746b6e4f9ac",
+        "682d6f8b810acfbebc499aed:67d0f0bee6c56d64f155257b",
+        "682d6f8b810acfbebc499aed:67d10444b148cbb2a00c77d1",
+        "682d6f8b810acfbebc499aed:67d105b75e7738adf6626631",
+        "682d6f8b810acfbebc499aed:67d105f9a748faa00fd55644",
+        "682d6f8b810acfbebc499aed:67d1069659703608767cad4d",
+        "682d9778d30b190eea3d7550:67d0eff4186c9746b6e4f9ac",
+        "682d9778d30b190eea3d7550:67d105f9a748faa00fd55644",
+        "682d9778d30b190eea3d7550:67d1078eba7c5cbd1f2f21e4"
+      ]
+    },
+    {
+      "id": "dipped-headlights",
+      "label": "Dipped Headlights",
+      "x": 424.8161119246346,
+      "y": 859.4128907122096,
+      "r": 12.75,
+      "count": 15,
+      "category": "General Questions Set 4",
+      "topic": "General Questions",
+      "color": "#22c55e",
+      "questionIds": [
+        "68074118db22d4178385bb9c:673af16f25d25160d519989c",
+        "68074118db22d4178385bb9c:67d0f6e814ef0505bb0dd88b",
+        "6833beed2f0a7ff010213baf:6731936427aeb3ce5c57f8e8",
+        "6836c1c8f878ba84cbb587b8:67d106d2e3673a50102712a0",
+        "6836c1c8f878ba84cbb587b8:67d10749a5fdc2bbf2f3f374",
+        "683822236f838064b3540579:67d103dfba7c5cbd1f2e4912",
+        "683822236f838064b3540579:67d105f9a748faa00fd55644",
+        "68466648654b48845d78f309:683826d4499d66755e6d32f4",
+        "68466648654b48845d78f309:683826fd126999283ed6b760",
+        "68466648654b48845d78f309:68382720126999283ed6baba",
+        "6848ff9a095c7f327aa1d12e:673af16f25d25160d519989c",
+        "6848ff9a095c7f327aa1d12e:67d103dfba7c5cbd1f2e4912",
+        "6848ff9a095c7f327aa1d12e:67d1069659703608767cad4d",
+        "6848ff9a095c7f327aa1d12e:683826fd126999283ed6b760",
+        "684aa0d296f20e38e9c864c2:684aa2cebce68bf78d782719"
+      ]
+    },
+    {
+      "id": "distance",
+      "label": "Safe Distance",
+      "x": 233.6756597199316,
+      "y": 249.60980925749976,
+      "r": 10.5,
+      "count": 10,
+      "category": "Road Safety Questions Set 2",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "6800b808b7134495e54dfbd7:67d0f6e814ef0505bb0dd88b",
+        "6800b808b7134495e54dfbd7:67d10312618e82f7e1341ea0",
+        "6805c8ce68c71eb0163eb97d:67318f8c27aeb3ce5c571ecd",
+        "6805c8ce68c71eb0163eb97d:6731936427aeb3ce5c57f8e8",
+        "6805c8ce68c71eb0163eb97d:67d1069659703608767cad4d",
+        "6805c8ce68c71eb0163eb97d:67d106d2e3673a50102712a0",
+        "6805c8ce68c71eb0163eb97d:67d1078eba7c5cbd1f2f21e4",
+        "6806f42adb22d4178372d9b9:67d10312618e82f7e1341ea0",
+        "68074118db22d4178385bb9c:6731936427aeb3ce5c57f8e8",
+        "684aa0d296f20e38e9c864c2:67d105f9a748faa00fd55644"
+      ]
+    },
+    {
+      "id": "emergency-vehicle",
+      "label": "Emergency Vehicle",
+      "x": 346.2412447696389,
+      "y": 944.1826221489065,
+      "r": 9.15,
+      "count": 7,
+      "category": "General Questions Set 2",
+      "topic": "General Questions",
+      "color": "#22c55e",
+      "questionIds": [
+        "682fec4b79ffe8bbec2a3931:67d0f0bee6c56d64f155257b",
+        "6836c1c8f878ba84cbb587b8:67d105b75e7738adf6626631",
+        "6836c1c8f878ba84cbb587b8:67d1069659703608767cad4d",
+        "683822236f838064b3540579:67318011edb5f0662805f0d8",
+        "683822236f838064b3540579:67318f8c27aeb3ce5c571ecd",
+        "683822236f838064b3540579:67d105b75e7738adf6626631",
+        "6848ff9a095c7f327aa1d12e:67d10312618e82f7e1341ea0"
+      ]
+    },
+    {
+      "id": "expressway",
+      "label": "Expressway",
+      "x": 696.9359128118755,
+      "y": 804.9649775934545,
+      "r": 15.9,
+      "count": 22,
+      "category": "Competency Questions Set 2",
+      "topic": "Competency",
+      "color": "#8b5cf6",
+      "questionIds": [
+        "6806f42adb22d4178372d9b9:67d103dfba7c5cbd1f2e4912",
+        "6806f42adb22d4178372d9b9:67d105f9a748faa00fd55644",
+        "682d6f8b810acfbebc499aed:67d0f0bee6c56d64f155257b",
+        "682d6f8b810acfbebc499aed:67d106d2e3673a50102712a0",
+        "682d9778d30b190eea3d7550:67318011edb5f0662805f0d8",
+        "682fec4b79ffe8bbec2a3931:67d0f0bee6c56d64f155257b",
+        "682fec4b79ffe8bbec2a3931:67d105b75e7738adf6626631",
+        "682fec4b79ffe8bbec2a3931:67d105f9a748faa00fd55644",
+        "682fec4b79ffe8bbec2a3931:67d1069659703608767cad4d",
+        "682fec4b79ffe8bbec2a3931:67d106d2e3673a50102712a0",
+        "6834108eb1501f0fca41701d:67d10444b148cbb2a00c77d1",
+        "68351f44397a84e42dad983a:673af16f25d25160d519989c",
+        "68351f44397a84e42dad983a:67d0f0bee6c56d64f155257b",
+        "68351f44397a84e42dad983a:67d0f1c32bd7fa4094849780",
+        "683662bd6dd7ac33fb27d108:67318f8c27aeb3ce5c571ecd",
+        "683662bd6dd7ac33fb27d108:67d105f9a748faa00fd55644",
+        "683662bd6dd7ac33fb27d108:683531f42f0a7ff0105be407",
+        "683822236f838064b3540579:6731936427aeb3ce5c57f8e8",
+        "68466648654b48845d78f309:6731936427aeb3ce5c57f8e8",
+        "68466648654b48845d78f309:67d105b75e7738adf6626631",
+        "6848ff9a095c7f327aa1d12e:67d105b75e7738adf6626631",
+        "684aa0d296f20e38e9c864c2:67318011edb5f0662805f0d8"
+      ]
+    },
+    {
+      "id": "flood",
+      "label": "Flood",
+      "x": 700.9641468589328,
+      "y": 920.7954388576833,
+      "r": 8.25,
+      "count": 5,
+      "category": "Competency Questions Set 3",
+      "topic": "Competency",
+      "color": "#8b5cf6",
+      "questionIds": [
+        "6833beed2f0a7ff010213baf:67318f8c27aeb3ce5c571ecd",
+        "6833beed2f0a7ff010213baf:6731936427aeb3ce5c57f8e8",
+        "68351f44397a84e42dad983a:67d0eff4186c9746b6e4f9ac",
+        "68351f44397a84e42dad983a:68352c70a990b6224d3828c7",
+        "683822236f838064b3540579:673af16f25d25160d519989c"
+      ]
+    },
+    {
+      "id": "give-way",
+      "label": "Give Way",
+      "x": 335.20494175756096,
+      "y": 828.8142088450353,
+      "r": 9.6,
+      "count": 8,
+      "category": "General Questions Set 2",
+      "topic": "General Questions",
+      "color": "#22c55e",
+      "questionIds": [
+        "6800a128460012b432cb6223:6731ac05c9064112eadb58e9",
+        "6800b808b7134495e54dfbd7:67d0eff4186c9746b6e4f9ac",
+        "68074118db22d4178385bb9c:673af16f25d25160d519989c",
+        "682d9778d30b190eea3d7550:67d106d2e3673a50102712a0",
+        "682fec4b79ffe8bbec2a3931:67d0f1c32bd7fa4094849780",
+        "68351f44397a84e42dad983a:67d0f0bee6c56d64f155257b",
+        "683822236f838064b3540579:67318011edb5f0662805f0d8",
+        "683822236f838064b3540579:67d105b75e7738adf6626631"
+      ]
+    },
+    {
+      "id": "helmet",
+      "label": "Helmet",
+      "x": 237.49634019559238,
+      "y": 890.2386113165953,
+      "r": 8.7,
+      "count": 6,
+      "category": "General Questions Set 1",
+      "topic": "General Questions",
+      "color": "#22c55e",
+      "questionIds": [
+        "6836c1c8f878ba84cbb587b8:67318011edb5f0662805f0d8",
+        "6836c1c8f878ba84cbb587b8:67d0f1c32bd7fa4094849780",
+        "6836c1c8f878ba84cbb587b8:67d0f6e814ef0505bb0dd88b",
+        "68466648654b48845d78f309:67d0eff4186c9746b6e4f9ac",
+        "68466648654b48845d78f309:67d10397346de42dddeed8b5",
+        "6848ff9a095c7f327aa1d12e:67d10397346de42dddeed8b5"
+      ]
+    },
+    {
+      "id": "horn",
+      "label": "Horn",
+      "x": 174.35603004738977,
+      "y": 164.27602943055444,
+      "r": 15.450000000000001,
+      "count": 21,
+      "category": "Road Safety Questions Set 5",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "67f86c56b7134495e565a84c:67318011edb5f0662805f0d8",
+        "67f86c56b7134495e565a84c:67d105b75e7738adf6626631",
+        "67f86c56b7134495e565a84c:67d1078eba7c5cbd1f2f21e4",
+        "67f86c56b7134495e565a84c:67ef95afc70d16cc2446db8e",
+        "68074118db22d4178385bb9c:67318f8c27aeb3ce5c571ecd",
+        "68074118db22d4178385bb9c:673af16f25d25160d519989c",
+        "682fec4b79ffe8bbec2a3931:673af16f25d25160d519989c",
+        "6833beed2f0a7ff010213baf:67d105b75e7738adf6626631",
+        "68351f44397a84e42dad983a:67318f8c27aeb3ce5c571ecd",
+        "68351f44397a84e42dad983a:67d107fd9a9b271dd2efc94a",
+        "683662bd6dd7ac33fb27d108:67d1069659703608767cad4d",
+        "6836c1c8f878ba84cbb587b8:67d105b75e7738adf6626631",
+        "68466648654b48845d78f309:67318f8c27aeb3ce5c571ecd",
+        "68466648654b48845d78f309:67d10749a5fdc2bbf2f3f374",
+        "6848ff9a095c7f327aa1d12e:67318011edb5f0662805f0d8",
+        "684aa0d296f20e38e9c864c2:67d10444b148cbb2a00c77d1",
+        "684aa0d296f20e38e9c864c2:67d105b75e7738adf6626631",
+        "684aa0d296f20e38e9c864c2:684aa2d074d35ce75a72f0c4",
+        "684aa0d296f20e38e9c864c2:684aa2cebce68bf78d782719",
+        "684aa0d296f20e38e9c864c2:684aa2cbbd10300a252fc861",
+        "684aa0d296f20e38e9c864c2:684aa2dbd6e30a1cb1512bbe"
+      ]
+    },
+    {
+      "id": "junction",
+      "label": "Junction",
+      "x": 256.5201871004019,
+      "y": 227.6116775349523,
+      "r": 17.700000000000003,
+      "count": 26,
+      "category": "Road Safety Questions Set 5",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "67f86c56b7134495e565a84c:67318011edb5f0662805f0d8",
+        "67f86c56b7134495e565a84c:673af16f25d25160d519989c",
+        "6800b808b7134495e54dfbd7:6731ac05c9064112eadb58e9",
+        "6800b808b7134495e54dfbd7:67d0f0bee6c56d64f155257b",
+        "6805c8ce68c71eb0163eb97d:67d0f0bee6c56d64f155257b",
+        "6805c8ce68c71eb0163eb97d:67d103dfba7c5cbd1f2e4912",
+        "68074118db22d4178385bb9c:67d0f1c32bd7fa4094849780",
+        "682d9778d30b190eea3d7550:67d106d2e3673a50102712a0",
+        "682d9778d30b190eea3d7550:682d9a7ecb72a907249b217e",
+        "6833beed2f0a7ff010213baf:67d0f6e814ef0505bb0dd88b",
+        "6834108eb1501f0fca41701d:67d1078eba7c5cbd1f2f21e4",
+        "6836c1c8f878ba84cbb587b8:67d106d2e3673a50102712a0",
+        "683822236f838064b3540579:67d0eff4186c9746b6e4f9ac",
+        "683822236f838064b3540579:67d107fd9a9b271dd2efc94a",
+        "6848ff9a095c7f327aa1d12e:67318011edb5f0662805f0d8",
+        "6848ff9a095c7f327aa1d12e:67d1069659703608767cad4d",
+        "684aa0d296f20e38e9c864c2:67d0f0bee6c56d64f155257b",
+        "684aa0d296f20e38e9c864c2:67d0f6e814ef0505bb0dd88b",
+        "684aa0d296f20e38e9c864c2:67d10312618e82f7e1341ea0",
+        "684aa0d296f20e38e9c864c2:67d103dfba7c5cbd1f2e4912",
+        "684aa0d296f20e38e9c864c2:684aa2cd5c6b456192f74ee2",
+        "684aa0d296f20e38e9c864c2:684aa2cbbd10300a252fc861",
+        "684aa0d296f20e38e9c864c2:684aa2c6edffe5c03c899b22",
+        "684aa0d296f20e38e9c864c2:684aa2c437631ffc9563d88c",
+        "684aa0d296f20e38e9c864c2:684aa2d7810a653b411602f6",
+        "684aa0d296f20e38e9c864c2:684aa2ddf4af7c93f1628d24"
+      ]
+    },
+    {
+      "id": "lane-discipline",
+      "label": "Lane Discipline",
+      "x": 139.99609014497582,
+      "y": 572.9094622625034,
+      "r": 7.8,
+      "count": 4,
+      "category": "Lane Discipline / Overtaking",
+      "topic": "Lane Discipline / Overtaking",
+      "color": "#ec4899",
+      "questionIds": [
+        "67f86c56b7134495e565a84c:673af16f25d25160d519989c",
+        "67f86c56b7134495e565a84c:67d106d2e3673a50102712a0",
+        "6800b808b7134495e54dfbd7:67d10397346de42dddeed8b5",
+        "6805c8ce68c71eb0163eb97d:67d0f1c32bd7fa4094849780"
+      ]
+    },
+    {
+      "id": "lorry",
+      "label": "Lorry / Heavy Vehicle",
+      "x": 204.81991601592313,
+      "y": 137.40201496103435,
+      "r": 9.15,
+      "count": 7,
+      "category": "Road Safety Questions Set 4",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "67f86c56b7134495e565a84c:67d10312618e82f7e1341ea0",
+        "6806f42adb22d4178372d9b9:67318f8c27aeb3ce5c571ecd",
+        "68074118db22d4178385bb9c:67d0f6e814ef0505bb0dd88b",
+        "68074118db22d4178385bb9c:67d10397346de42dddeed8b5",
+        "68074118db22d4178385bb9c:67d103dfba7c5cbd1f2e4912",
+        "682fec4b79ffe8bbec2a3931:67d1078eba7c5cbd1f2f21e4",
+        "683822236f838064b3540579:67d0eff4186c9746b6e4f9ac"
+      ]
+    },
+    {
+      "id": "motorcycle-control",
+      "label": "Motorcycle Control",
+      "x": 845.6927398282327,
+      "y": 596.1481218212397,
+      "r": 14.55,
+      "count": 19,
+      "category": "Alcohol / Road Safety",
+      "topic": "Alcohol / Road Safety",
+      "color": "#ef4444",
+      "questionIds": [
+        "6800a128460012b432cb6223:67d0f1c32bd7fa4094849780",
+        "6800a128460012b432cb6223:67d0f6e814ef0505bb0dd88b",
+        "6800a128460012b432cb6223:67d103dfba7c5cbd1f2e4912",
+        "6800b808b7134495e54dfbd7:67d107fd9a9b271dd2efc94a",
+        "682ee7b784b65a470cd6d417:67d10397346de42dddeed8b5",
+        "682ee7b784b65a470cd6d417:67d103dfba7c5cbd1f2e4912",
+        "6833beed2f0a7ff010213baf:67d0eff4186c9746b6e4f9ac",
+        "6833beed2f0a7ff010213baf:67d10397346de42dddeed8b5",
+        "6833beed2f0a7ff010213baf:67d107fd9a9b271dd2efc94a",
+        "6834108eb1501f0fca41701d:67318011edb5f0662805f0d8",
+        "6834108eb1501f0fca41701d:67d103dfba7c5cbd1f2e4912",
+        "6834108eb1501f0fca41701d:67d106d2e3673a50102712a0",
+        "68351f44397a84e42dad983a:67d10444b148cbb2a00c77d1",
+        "68351f44397a84e42dad983a:683531f42f0a7ff0105be407",
+        "683662bd6dd7ac33fb27d108:67d0f1c32bd7fa4094849780",
+        "683662bd6dd7ac33fb27d108:67d0f6e814ef0505bb0dd88b",
+        "683662bd6dd7ac33fb27d108:68352bea6e9a35e99949a757",
+        "68466648654b48845d78f309:673af16f25d25160d519989c",
+        "6848ff9a095c7f327aa1d12e:67318f8c27aeb3ce5c571ecd"
+      ]
+    },
+    {
+      "id": "overtaking",
+      "label": "Overtaking",
+      "x": 40.0,
+      "y": 410.62218863464886,
+      "r": 22,
+      "count": 38,
+      "category": "Lane Discipline / Overtaking",
+      "topic": "Lane Discipline / Overtaking",
+      "color": "#ec4899",
+      "questionIds": [
+        "67f86c56b7134495e565a84c:6731936427aeb3ce5c57f8e8",
+        "67f86c56b7134495e565a84c:67d0f0bee6c56d64f155257b",
+        "67f86c56b7134495e565a84c:67d10312618e82f7e1341ea0",
+        "67f86c56b7134495e565a84c:67d10397346de42dddeed8b5",
+        "67f86c56b7134495e565a84c:67d103dfba7c5cbd1f2e4912",
+        "67f86c56b7134495e565a84c:67d10444b148cbb2a00c77d1",
+        "67f86c56b7134495e565a84c:67d105b75e7738adf6626631",
+        "67f86c56b7134495e565a84c:67d105f9a748faa00fd55644",
+        "67f86c56b7134495e565a84c:67d1069659703608767cad4d",
+        "67f86c56b7134495e565a84c:67d106d2e3673a50102712a0",
+        "67f86c56b7134495e565a84c:67d10749a5fdc2bbf2f3f374",
+        "67f86c56b7134495e565a84c:67d1078eba7c5cbd1f2f21e4",
+        "67f86c56b7134495e565a84c:67d107fd9a9b271dd2efc94a",
+        "67f86c56b7134495e565a84c:67ef95afc70d16cc2446db8e",
+        "6800b808b7134495e54dfbd7:67d105b75e7738adf6626631",
+        "6806f42adb22d4178372d9b9:67d1069659703608767cad4d",
+        "68074118db22d4178385bb9c:6731ac05c9064112eadb58e9",
+        "68074118db22d4178385bb9c:67d0f6e814ef0505bb0dd88b",
+        "68074118db22d4178385bb9c:67d10312618e82f7e1341ea0",
+        "68074118db22d4178385bb9c:67d10397346de42dddeed8b5",
+        "682d9778d30b190eea3d7550:67d10397346de42dddeed8b5",
+        "682fec4b79ffe8bbec2a3931:67d0f0bee6c56d64f155257b",
+        "682fec4b79ffe8bbec2a3931:67d105f9a748faa00fd55644",
+        "682fec4b79ffe8bbec2a3931:67d106d2e3673a50102712a0",
+        "683662bd6dd7ac33fb27d108:67318f8c27aeb3ce5c571ecd",
+        "683822236f838064b3540579:6731936427aeb3ce5c57f8e8",
+        "68466648654b48845d78f309:67318f8c27aeb3ce5c571ecd",
+        "6848ff9a095c7f327aa1d12e:67318011edb5f0662805f0d8",
+        "6848ff9a095c7f327aa1d12e:67d106d2e3673a50102712a0",
+        "6848ff9a095c7f327aa1d12e:67d1069659703608767cad4d",
+        "684aa0d296f20e38e9c864c2:67318f8c27aeb3ce5c571ecd",
+        "684aa0d296f20e38e9c864c2:673af16f25d25160d519989c",
+        "684aa0d296f20e38e9c864c2:67d105b75e7738adf6626631",
+        "684aa0d296f20e38e9c864c2:684aa2d074d35ce75a72f0c4",
+        "684aa0d296f20e38e9c864c2:684aa2cbbd10300a252fc861",
+        "684aa0d296f20e38e9c864c2:684aa2c9f6532b13a03aa220",
+        "684aa0d296f20e38e9c864c2:684aa2d7810a653b411602f6",
+        "684aa0d296f20e38e9c864c2:684aa2ddf4af7c93f1628d24"
+      ]
+    },
+    {
+      "id": "parking",
+      "label": "Parking",
+      "x": 281.1837824115776,
+      "y": 207.70005493548746,
+      "r": 11.4,
+      "count": 12,
+      "category": "Road Safety Questions Set 2",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "6800b808b7134495e54dfbd7:67d103dfba7c5cbd1f2e4912",
+        "6805c8ce68c71eb0163eb97d:6731936427aeb3ce5c57f8e8",
+        "6805c8ce68c71eb0163eb97d:67d107fd9a9b271dd2efc94a",
+        "6806f42adb22d4178372d9b9:67d105f9a748faa00fd55644",
+        "6833beed2f0a7ff010213baf:67d1078eba7c5cbd1f2f21e4",
+        "68351f44397a84e42dad983a:67318f8c27aeb3ce5c571ecd",
+        "68351f44397a84e42dad983a:67d107fd9a9b271dd2efc94a",
+        "683662bd6dd7ac33fb27d108:67d1069659703608767cad4d",
+        "68466648654b48845d78f309:67d0f1c32bd7fa4094849780",
+        "6848ff9a095c7f327aa1d12e:67318f8c27aeb3ce5c571ecd",
+        "684aa0d296f20e38e9c864c2:684aa2cebce68bf78d782719",
+        "684aa0d296f20e38e9c864c2:684aa2dbd6e30a1cb1512bbe"
+      ]
+    },
+    {
+      "id": "pedestrian",
+      "label": "Pedestrian",
+      "x": 237.4963401955919,
+      "y": 113.30105961686795,
+      "r": 9.6,
+      "count": 8,
+      "category": "Road Safety Questions Set 4",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "6800b808b7134495e54dfbd7:67d10444b148cbb2a00c77d1",
+        "68074118db22d4178385bb9c:67d103dfba7c5cbd1f2e4912",
+        "68074118db22d4178385bb9c:67d105b75e7738adf6626631",
+        "68351f44397a84e42dad983a:67318f8c27aeb3ce5c571ecd",
+        "683822236f838064b3540579:67d0eff4186c9746b6e4f9ac",
+        "683822236f838064b3540579:67d107fd9a9b271dd2efc94a",
+        "684aa0d296f20e38e9c864c2:6731ac05c9064112eadb58e9",
+        "684aa0d296f20e38e9c864c2:684aa2c437631ffc9563d88c"
+      ]
+    },
+    {
+      "id": "pillion",
+      "label": "Pillion",
+      "x": 256.52018710040227,
+      "y": 775.927993398511,
+      "r": 8.7,
+      "count": 6,
+      "category": "General Questions Set 4",
+      "topic": "General Questions",
+      "color": "#22c55e",
+      "questionIds": [
+        "683822236f838064b3540579:683826d4499d66755e6d32f4",
+        "683822236f838064b3540579:683826fd126999283ed6b760",
+        "68466648654b48845d78f309:67d1069659703608767cad4d",
+        "6848ff9a095c7f327aa1d12e:6731936427aeb3ce5c57f8e8",
+        "6848ff9a095c7f327aa1d12e:67d107fd9a9b271dd2efc94a",
+        "6848ff9a095c7f327aa1d12e:684902ad095c7f327aa264c3"
+      ]
+    },
+    {
+      "id": "probation",
+      "label": "Probation",
+      "x": 706.6900602166294,
+      "y": 205.36553828561614,
+      "r": 10.5,
+      "count": 10,
+      "category": "Traffic Rules Set 1",
+      "topic": "Traffic Rules",
+      "color": "#3b82f6",
+      "questionIds": [
+        "6805c8ce68c71eb0163eb97d:67d1078eba7c5cbd1f2f21e4",
+        "682d6f8b810acfbebc499aed:67d10312618e82f7e1341ea0",
+        "682d6f8b810acfbebc499aed:67d10397346de42dddeed8b5",
+        "682d6f8b810acfbebc499aed:67d103dfba7c5cbd1f2e4912",
+        "682d6f8b810acfbebc499aed:67d10444b148cbb2a00c77d1",
+        "682d9778d30b190eea3d7550:673af16f25d25160d519989c",
+        "682d9778d30b190eea3d7550:67d0f0bee6c56d64f155257b",
+        "682d9778d30b190eea3d7550:67d0f6e814ef0505bb0dd88b",
+        "682d9778d30b190eea3d7550:67d103dfba7c5cbd1f2e4912",
+        "68466648654b48845d78f309:67318f8c27aeb3ce5c571ecd"
+      ]
+    },
+    {
+      "id": "rain",
+      "label": "Wet / Rain",
+      "x": 612.061840949205,
+      "y": 847.0676201942827,
+      "r": 15.9,
+      "count": 22,
+      "category": "Competency Questions Set 6",
+      "topic": "Competency",
+      "color": "#8b5cf6",
+      "questionIds": [
+        "6800b808b7134495e54dfbd7:67d0f1c32bd7fa4094849780",
+        "6805c8ce68c71eb0163eb97d:67d1069659703608767cad4d",
+        "6805c8ce68c71eb0163eb97d:67d10749a5fdc2bbf2f3f374",
+        "6806f42adb22d4178372d9b9:67d0f6e814ef0505bb0dd88b",
+        "6806f42adb22d4178372d9b9:67d10397346de42dddeed8b5",
+        "68074118db22d4178385bb9c:6731936427aeb3ce5c57f8e8",
+        "68074118db22d4178385bb9c:67d0f0bee6c56d64f155257b",
+        "68074118db22d4178385bb9c:67d0f6e814ef0505bb0dd88b",
+        "6833beed2f0a7ff010213baf:67d106d2e3673a50102712a0",
+        "6834108eb1501f0fca41701d:67d0f6e814ef0505bb0dd88b",
+        "68351f44397a84e42dad983a:67d106d2e3673a50102712a0",
+        "68351f44397a84e42dad983a:67d10749a5fdc2bbf2f3f374",
+        "683662bd6dd7ac33fb27d108:67318f8c27aeb3ce5c571ecd",
+        "683662bd6dd7ac33fb27d108:67d0eff4186c9746b6e4f9ac",
+        "683662bd6dd7ac33fb27d108:67d105b75e7738adf6626631",
+        "683662bd6dd7ac33fb27d108:67d106d2e3673a50102712a0",
+        "683662bd6dd7ac33fb27d108:68352c9d03e872f9068811fa",
+        "683822236f838064b3540579:6731ac05c9064112eadb58e9",
+        "683822236f838064b3540579:67d0f1c32bd7fa4094849780",
+        "68466648654b48845d78f309:67d0f0bee6c56d64f155257b",
+        "68466648654b48845d78f309:67d105b75e7738adf6626631",
+        "6848ff9a095c7f327aa1d12e:6731ac05c9064112eadb58e9"
+      ]
+    },
+    {
+      "id": "rear-view-mirror",
+      "label": "Rear View Mirror",
+      "x": 307.4787408008546,
+      "y": 190.02648093005354,
+      "r": 9.15,
+      "count": 7,
+      "category": "Road Safety Questions Set 1",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "67f86c56b7134495e565a84c:67d10397346de42dddeed8b5",
+        "6800b808b7134495e54dfbd7:6731936427aeb3ce5c57f8e8",
+        "6800b808b7134495e54dfbd7:67d105f9a748faa00fd55644",
+        "6800b808b7134495e54dfbd7:67d10749a5fdc2bbf2f3f374",
+        "6805c8ce68c71eb0163eb97d:67d10312618e82f7e1341ea0",
+        "6806f42adb22d4178372d9b9:67d0f0bee6c56d64f155257b",
+        "68074118db22d4178385bb9c:67318f8c27aeb3ce5c571ecd"
+      ]
+    },
+    {
+      "id": "reverse",
+      "label": "Reverse",
+      "x": 272.13661526782494,
+      "y": 92.15658622077885,
+      "r": 8.25,
+      "count": 5,
+      "category": "Road Safety Questions Set 2",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "6805c8ce68c71eb0163eb97d:6731936427aeb3ce5c57f8e8",
+        "68074118db22d4178385bb9c:67318f8c27aeb3ce5c571ecd",
+        "682fec4b79ffe8bbec2a3931:67d105b75e7738adf6626631",
+        "6833beed2f0a7ff010213baf:673af16f25d25160d519989c",
+        "684aa0d296f20e38e9c864c2:684aa2cd5c6b456192f74ee2"
+      ]
+    },
+    {
+      "id": "right-of-way",
+      "label": "Right of Way",
+      "x": 335.2049417575609,
+      "y": 174.72546208842778,
+      "r": 6.45,
+      "count": 1,
+      "category": "Road Safety Questions Set 1",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "6800b808b7134495e54dfbd7:67d0eff4186c9746b6e4f9ac"
+      ]
+    },
+    {
+      "id": "road-shoulder",
+      "label": "Road Shoulder",
+      "x": 308.47710782295167,
+      "y": 74.12951698269381,
+      "r": 14.55,
+      "count": 19,
+      "category": "Road Safety Questions Set 1",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "6800b808b7134495e54dfbd7:6731936427aeb3ce5c57f8e8",
+        "6800b808b7134495e54dfbd7:67d10397346de42dddeed8b5",
+        "6800b808b7134495e54dfbd7:67d105f9a748faa00fd55644",
+        "6800b808b7134495e54dfbd7:67d107fd9a9b271dd2efc94a",
+        "6805c8ce68c71eb0163eb97d:67d10312618e82f7e1341ea0",
+        "6805c8ce68c71eb0163eb97d:67d107fd9a9b271dd2efc94a",
+        "682d6f8b810acfbebc499aed:67d0f0bee6c56d64f155257b",
+        "682d6f8b810acfbebc499aed:67d106d2e3673a50102712a0",
+        "682d6f8b810acfbebc499aed:67d107fd9a9b271dd2efc94a",
+        "682d9778d30b190eea3d7550:67318011edb5f0662805f0d8",
+        "6834108eb1501f0fca41701d:67d103dfba7c5cbd1f2e4912",
+        "6834108eb1501f0fca41701d:67d10444b148cbb2a00c77d1",
+        "68351f44397a84e42dad983a:67d0f0bee6c56d64f155257b",
+        "68351f44397a84e42dad983a:67d0f1c32bd7fa4094849780",
+        "683662bd6dd7ac33fb27d108:683531f42f0a7ff0105be407",
+        "683822236f838064b3540579:6731936427aeb3ce5c57f8e8",
+        "683822236f838064b3540579:683826d4499d66755e6d32f4",
+        "68466648654b48845d78f309:6731936427aeb3ce5c57f8e8",
+        "684aa0d296f20e38e9c864c2:67318011edb5f0662805f0d8"
+      ]
+    },
+    {
+      "id": "roundabout",
+      "label": "Roundabout",
+      "x": 364.1513721508774,
+      "y": 161.91344840300275,
+      "r": 6.9,
+      "count": 2,
+      "category": "Road Safety Questions Set 1",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "6800b808b7134495e54dfbd7:67d0eff4186c9746b6e4f9ac",
+        "683822236f838064b3540579:67d107fd9a9b271dd2efc94a"
+      ]
+    },
+    {
+      "id": "signal",
+      "label": "Signal / Indicator",
+      "x": 346.24124476963874,
+      "y": 59.357048784556554,
+      "r": 20.4,
+      "count": 32,
+      "category": "Road Safety Questions Set 5",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "67f86c56b7134495e565a84c:67d10312618e82f7e1341ea0",
+        "67f86c56b7134495e565a84c:67d103dfba7c5cbd1f2e4912",
+        "67f86c56b7134495e565a84c:67d10444b148cbb2a00c77d1",
+        "67f86c56b7134495e565a84c:67d105b75e7738adf6626631",
+        "6800b808b7134495e54dfbd7:6731ac05c9064112eadb58e9",
+        "6800b808b7134495e54dfbd7:67d1069659703608767cad4d",
+        "6805c8ce68c71eb0163eb97d:673af16f25d25160d519989c",
+        "6805c8ce68c71eb0163eb97d:67d0f1c32bd7fa4094849780",
+        "6805c8ce68c71eb0163eb97d:67d0f6e814ef0505bb0dd88b",
+        "6805c8ce68c71eb0163eb97d:67d10397346de42dddeed8b5",
+        "6805c8ce68c71eb0163eb97d:67d103dfba7c5cbd1f2e4912",
+        "6805c8ce68c71eb0163eb97d:67d107fd9a9b271dd2efc94a",
+        "6806f42adb22d4178372d9b9:67d0f0bee6c56d64f155257b",
+        "6806f42adb22d4178372d9b9:67d10444b148cbb2a00c77d1",
+        "68074118db22d4178385bb9c:67d10312618e82f7e1341ea0",
+        "68074118db22d4178385bb9c:67d10397346de42dddeed8b5",
+        "68074118db22d4178385bb9c:67d103dfba7c5cbd1f2e4912",
+        "68074118db22d4178385bb9c:67d10444b148cbb2a00c77d1",
+        "68074118db22d4178385bb9c:67d105f9a748faa00fd55644",
+        "682fec4b79ffe8bbec2a3931:67d0f1c32bd7fa4094849780",
+        "6834108eb1501f0fca41701d:67d103dfba7c5cbd1f2e4912",
+        "68351f44397a84e42dad983a:68352c9d03e872f9068811fa",
+        "68466648654b48845d78f309:6731936427aeb3ce5c57f8e8",
+        "68466648654b48845d78f309:67d103dfba7c5cbd1f2e4912",
+        "68466648654b48845d78f309:67d10749a5fdc2bbf2f3f374",
+        "684aa0d296f20e38e9c864c2:67d0f0bee6c56d64f155257b",
+        "684aa0d296f20e38e9c864c2:67d0f1c32bd7fa4094849780",
+        "684aa0d296f20e38e9c864c2:67d103dfba7c5cbd1f2e4912",
+        "684aa0d296f20e38e9c864c2:684aa2d074d35ce75a72f0c4",
+        "684aa0d296f20e38e9c864c2:684aa2cd5c6b456192f74ee2",
+        "684aa0d296f20e38e9c864c2:684aa2c6edffe5c03c899b22",
+        "684aa0d296f20e38e9c864c2:684aa2d496f20e38e9c8b064"
+      ]
+    },
+    {
+      "id": "siren",
+      "label": "Siren",
+      "x": 146.3365308568099,
+      "y": 809.8210953851215,
+      "r": 10.05,
+      "count": 9,
+      "category": "General Questions Set 2",
+      "topic": "General Questions",
+      "color": "#22c55e",
+      "questionIds": [
+        "6800a128460012b432cb6223:6731ac05c9064112eadb58e9",
+        "6836c1c8f878ba84cbb587b8:67d105b75e7738adf6626631",
+        "6836c1c8f878ba84cbb587b8:67d1069659703608767cad4d",
+        "683822236f838064b3540579:67318f8c27aeb3ce5c571ecd",
+        "683822236f838064b3540579:67d0f0bee6c56d64f155257b",
+        "683822236f838064b3540579:67d105b75e7738adf6626631",
+        "68466648654b48845d78f309:67d106d2e3673a50102712a0",
+        "68466648654b48845d78f309:67d107fd9a9b271dd2efc94a",
+        "6848ff9a095c7f327aa1d12e:67d106d2e3673a50102712a0"
+      ]
+    },
+    {
+      "id": "skid",
+      "label": "Skid",
+      "x": 586.14983508237,
+      "y": 960.0,
+      "r": 8.7,
+      "count": 6,
+      "category": "Competency Questions Set 3",
+      "topic": "Competency",
+      "color": "#8b5cf6",
+      "questionIds": [
+        "682ee7b784b65a470cd6d417:67d10397346de42dddeed8b5",
+        "682ee7b784b65a470cd6d417:67d103dfba7c5cbd1f2e4912",
+        "6833beed2f0a7ff010213baf:67d0eff4186c9746b6e4f9ac",
+        "6833beed2f0a7ff010213baf:67d10397346de42dddeed8b5",
+        "6833beed2f0a7ff010213baf:67d107fd9a9b271dd2efc94a",
+        "6834108eb1501f0fca41701d:67d103dfba7c5cbd1f2e4912"
+      ]
+    },
+    {
+      "id": "speed-limit",
+      "label": "Speed Limit",
+      "x": 834.5320577769043,
+      "y": 182.39043684766506,
+      "r": 9.6,
+      "count": 8,
+      "category": "Traffic Rules Set 2",
+      "topic": "Traffic Rules",
+      "color": "#3b82f6",
+      "questionIds": [
+        "67f86c56b7134495e565a84c:67d0eff4186c9746b6e4f9ac",
+        "67f86c56b7134495e565a84c:67d105f9a748faa00fd55644",
+        "682d9778d30b190eea3d7550:67d10312618e82f7e1341ea0",
+        "682d9778d30b190eea3d7550:67d105b75e7738adf6626631",
+        "682d9778d30b190eea3d7550:67d105f9a748faa00fd55644",
+        "682fec4b79ffe8bbec2a3931:67d0f0bee6c56d64f155257b",
+        "682fec4b79ffe8bbec2a3931:67d105f9a748faa00fd55644",
+        "684aa0d296f20e38e9c864c2:67318f8c27aeb3ce5c571ecd"
+      ]
+    },
+    {
+      "id": "stop-line",
+      "label": "Stop Line",
+      "x": 394.0977321671788,
+      "y": 151.6879470340299,
+      "r": 6.9,
+      "count": 2,
+      "category": "Road Safety Questions Set 5",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "684aa0d296f20e38e9c864c2:67d103dfba7c5cbd1f2e4912",
+        "684aa0d296f20e38e9c864c2:684aa2cd5c6b456192f74ee2"
+      ]
+    },
+    {
+      "id": "traffic-light",
+      "label": "Traffic Light",
+      "x": 385.14161822311246,
+      "y": 47.95160902921498,
+      "r": 10.05,
+      "count": 9,
+      "category": "Road Safety Questions Set 5",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "6800b808b7134495e54dfbd7:67d0f0bee6c56d64f155257b",
+        "682d9778d30b190eea3d7550:67d106d2e3673a50102712a0",
+        "684aa0d296f20e38e9c864c2:67d0f0bee6c56d64f155257b",
+        "684aa0d296f20e38e9c864c2:67d0f1c32bd7fa4094849780",
+        "684aa0d296f20e38e9c864c2:67d10312618e82f7e1341ea0",
+        "684aa0d296f20e38e9c864c2:67d103dfba7c5cbd1f2e4912",
+        "684aa0d296f20e38e9c864c2:684aa2cd5c6b456192f74ee2",
+        "684aa0d296f20e38e9c864c2:684aa2c6edffe5c03c899b22",
+        "684aa0d296f20e38e9c864c2:684aa2d496f20e38e9c8b064"
+      ]
+    },
+    {
+      "id": "u-turn",
+      "label": "U-Turn",
+      "x": 424.81611192463436,
+      "y": 144.12678022125368,
+      "r": 8.25,
+      "count": 5,
+      "category": "Road Safety Questions Set 2",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "6805c8ce68c71eb0163eb97d:67d10312618e82f7e1341ea0",
+        "6805c8ce68c71eb0163eb97d:67d10444b148cbb2a00c77d1",
+        "68074118db22d4178385bb9c:67d0f1c32bd7fa4094849780",
+        "6834108eb1501f0fca41701d:67d105f9a748faa00fd55644",
+        "684aa0d296f20e38e9c864c2:67d10312618e82f7e1341ea0"
+      ]
+    },
+    {
+      "id": "zebra-crossing",
+      "label": "Crossing",
+      "x": 424.88217285270423,
+      "y": 40.0,
+      "r": 6.9,
+      "count": 2,
+      "category": "Road Safety Questions Set 4",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "68074118db22d4178385bb9c:673af16f25d25160d519989c",
+        "684aa0d296f20e38e9c864c2:684aa2c437631ffc9563d88c"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "alcohol",
+      "target": "motorcycle-control",
+      "weight": 3,
+      "category": "Alcohol / Road Safety",
+      "topic": "Alcohol / Road Safety",
+      "color": "#ef4444",
+      "questionIds": [
+        "6800a128460012b432cb6223:67d0f1c32bd7fa4094849780",
+        "6800a128460012b432cb6223:67d0f6e814ef0505bb0dd88b",
+        "6800a128460012b432cb6223:67d103dfba7c5cbd1f2e4912"
+      ]
+    },
+    {
+      "source": "ambulance",
+      "target": "siren",
+      "weight": 2,
+      "category": "Alcohol / Road Safety",
+      "topic": "Alcohol / Road Safety",
+      "color": "#ef4444",
+      "questionIds": [
+        "6800a128460012b432cb6223:6731ac05c9064112eadb58e9",
+        "6848ff9a095c7f327aa1d12e:67d106d2e3673a50102712a0"
+      ]
+    },
+    {
+      "source": "bend",
+      "target": "braking",
+      "weight": 2,
+      "category": "Competency Questions Set 3",
+      "topic": "Competency",
+      "color": "#8b5cf6",
+      "questionIds": [
+        "6833beed2f0a7ff010213baf:67d107fd9a9b271dd2efc94a",
+        "68351f44397a84e42dad983a:68352c135ee546698d673619"
+      ]
+    },
+    {
+      "source": "blind-spot",
+      "target": "signal",
+      "weight": 6,
+      "category": "Road Safety Questions Set 2",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "6800b808b7134495e54dfbd7:67d1069659703608767cad4d",
+        "6805c8ce68c71eb0163eb97d:67d0f1c32bd7fa4094849780",
+        "6805c8ce68c71eb0163eb97d:67d0f6e814ef0505bb0dd88b",
+        "6806f42adb22d4178372d9b9:67d0f0bee6c56d64f155257b",
+        "6806f42adb22d4178372d9b9:67d10444b148cbb2a00c77d1",
+        "68351f44397a84e42dad983a:68352c9d03e872f9068811fa"
+      ]
+    },
+    {
+      "source": "blind-spot",
+      "target": "rear-view-mirror",
+      "weight": 5,
+      "category": "Road Safety Questions Set 1",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "6800b808b7134495e54dfbd7:6731936427aeb3ce5c57f8e8",
+        "6800b808b7134495e54dfbd7:67d105f9a748faa00fd55644",
+        "6800b808b7134495e54dfbd7:67d10749a5fdc2bbf2f3f374",
+        "6805c8ce68c71eb0163eb97d:67d10312618e82f7e1341ea0",
+        "6806f42adb22d4178372d9b9:67d0f0bee6c56d64f155257b"
+      ]
+    },
+    {
+      "source": "blind-spot",
+      "target": "road-shoulder",
+      "weight": 3,
+      "category": "Road Safety Questions Set 1",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "6800b808b7134495e54dfbd7:6731936427aeb3ce5c57f8e8",
+        "6800b808b7134495e54dfbd7:67d105f9a748faa00fd55644",
+        "6805c8ce68c71eb0163eb97d:67d10312618e82f7e1341ea0"
+      ]
+    },
+    {
+      "source": "blind-spot",
+      "target": "braking",
+      "weight": 3,
+      "category": "Road Safety Questions Set 2",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "6805c8ce68c71eb0163eb97d:67d0f1c32bd7fa4094849780",
+        "6805c8ce68c71eb0163eb97d:67d0f6e814ef0505bb0dd88b",
+        "6806f42adb22d4178372d9b9:67d10444b148cbb2a00c77d1"
+      ]
+    },
+    {
+      "source": "braking",
+      "target": "motorcycle-control",
+      "weight": 8,
+      "category": "Competency Questions Set 4",
+      "topic": "Competency",
+      "color": "#8b5cf6",
+      "questionIds": [
+        "682ee7b784b65a470cd6d417:67d10397346de42dddeed8b5",
+        "682ee7b784b65a470cd6d417:67d103dfba7c5cbd1f2e4912",
+        "6833beed2f0a7ff010213baf:67d0eff4186c9746b6e4f9ac",
+        "6833beed2f0a7ff010213baf:67d107fd9a9b271dd2efc94a",
+        "6834108eb1501f0fca41701d:67318011edb5f0662805f0d8",
+        "6834108eb1501f0fca41701d:67d103dfba7c5cbd1f2e4912",
+        "6834108eb1501f0fca41701d:67d106d2e3673a50102712a0",
+        "683662bd6dd7ac33fb27d108:67d0f6e814ef0505bb0dd88b"
+      ]
+    },
+    {
+      "source": "braking",
+      "target": "signal",
+      "weight": 6,
+      "category": "Road Safety Questions Set 2",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "6805c8ce68c71eb0163eb97d:673af16f25d25160d519989c",
+        "6805c8ce68c71eb0163eb97d:67d0f1c32bd7fa4094849780",
+        "6805c8ce68c71eb0163eb97d:67d0f6e814ef0505bb0dd88b",
+        "6806f42adb22d4178372d9b9:67d10444b148cbb2a00c77d1",
+        "6834108eb1501f0fca41701d:67d103dfba7c5cbd1f2e4912",
+        "684aa0d296f20e38e9c864c2:67d103dfba7c5cbd1f2e4912"
+      ]
+    },
+    {
+      "source": "braking",
+      "target": "skid",
+      "weight": 5,
+      "category": "Competency Questions Set 1",
+      "topic": "Competency",
+      "color": "#8b5cf6",
+      "questionIds": [
+        "682ee7b784b65a470cd6d417:67d10397346de42dddeed8b5",
+        "682ee7b784b65a470cd6d417:67d103dfba7c5cbd1f2e4912",
+        "6833beed2f0a7ff010213baf:67d0eff4186c9746b6e4f9ac",
+        "6833beed2f0a7ff010213baf:67d107fd9a9b271dd2efc94a",
+        "6834108eb1501f0fca41701d:67d103dfba7c5cbd1f2e4912"
+      ]
+    },
+    {
+      "source": "braking",
+      "target": "rain",
+      "weight": 4,
+      "category": "Road Safety Questions Set 4",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "68074118db22d4178385bb9c:67d0f0bee6c56d64f155257b",
+        "68351f44397a84e42dad983a:67d106d2e3673a50102712a0",
+        "683662bd6dd7ac33fb27d108:67d0eff4186c9746b6e4f9ac",
+        "683822236f838064b3540579:6731ac05c9064112eadb58e9"
+      ]
+    },
+    {
+      "source": "braking",
+      "target": "cyclist",
+      "weight": 3,
+      "category": "Road Safety Questions Set 3",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "6806f42adb22d4178372d9b9:67d0eff4186c9746b6e4f9ac",
+        "683662bd6dd7ac33fb27d108:67d1069659703608767cad4d",
+        "684aa0d296f20e38e9c864c2:684aa2cebce68bf78d782719"
+      ]
+    },
+    {
+      "source": "braking",
+      "target": "flood",
+      "weight": 3,
+      "category": "Competency Questions Set 3",
+      "topic": "Competency",
+      "color": "#8b5cf6",
+      "questionIds": [
+        "6833beed2f0a7ff010213baf:67318f8c27aeb3ce5c571ecd",
+        "6833beed2f0a7ff010213baf:6731936427aeb3ce5c57f8e8",
+        "683822236f838064b3540579:673af16f25d25160d519989c"
+      ]
+    },
+    {
+      "source": "braking",
+      "target": "horn",
+      "weight": 3,
+      "category": "Competency Questions Set 3",
+      "topic": "Competency",
+      "color": "#8b5cf6",
+      "questionIds": [
+        "6833beed2f0a7ff010213baf:67d105b75e7738adf6626631",
+        "683662bd6dd7ac33fb27d108:67d1069659703608767cad4d",
+        "684aa0d296f20e38e9c864c2:684aa2cebce68bf78d782719"
+      ]
+    },
+    {
+      "source": "braking",
+      "target": "dipped-headlights",
+      "weight": 2,
+      "category": "Competency Questions Set 3",
+      "topic": "Competency",
+      "color": "#8b5cf6",
+      "questionIds": [
+        "6833beed2f0a7ff010213baf:6731936427aeb3ce5c57f8e8",
+        "684aa0d296f20e38e9c864c2:684aa2cebce68bf78d782719"
+      ]
+    },
+    {
+      "source": "braking",
+      "target": "parking",
+      "weight": 2,
+      "category": "Competency Questions Set 6",
+      "topic": "Competency",
+      "color": "#8b5cf6",
+      "questionIds": [
+        "683662bd6dd7ac33fb27d108:67d1069659703608767cad4d",
+        "684aa0d296f20e38e9c864c2:684aa2cebce68bf78d782719"
+      ]
+    },
+    {
+      "source": "cyclist",
+      "target": "overtaking",
+      "weight": 8,
+      "category": "Road Safety Questions Set 5",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "67f86c56b7134495e565a84c:67d10444b148cbb2a00c77d1",
+        "67f86c56b7134495e565a84c:67d1069659703608767cad4d",
+        "684aa0d296f20e38e9c864c2:673af16f25d25160d519989c",
+        "684aa0d296f20e38e9c864c2:67d105b75e7738adf6626631",
+        "684aa0d296f20e38e9c864c2:684aa2cbbd10300a252fc861",
+        "684aa0d296f20e38e9c864c2:684aa2c9f6532b13a03aa220",
+        "684aa0d296f20e38e9c864c2:684aa2d7810a653b411602f6",
+        "684aa0d296f20e38e9c864c2:684aa2ddf4af7c93f1628d24"
+      ]
+    },
+    {
+      "source": "cyclist",
+      "target": "junction",
+      "weight": 7,
+      "category": "Road Safety Questions Set 5",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "68074118db22d4178385bb9c:67d0f1c32bd7fa4094849780",
+        "683822236f838064b3540579:67d0eff4186c9746b6e4f9ac",
+        "684aa0d296f20e38e9c864c2:67d0f6e814ef0505bb0dd88b",
+        "684aa0d296f20e38e9c864c2:684aa2cbbd10300a252fc861",
+        "684aa0d296f20e38e9c864c2:684aa2c437631ffc9563d88c",
+        "684aa0d296f20e38e9c864c2:684aa2d7810a653b411602f6",
+        "684aa0d296f20e38e9c864c2:684aa2ddf4af7c93f1628d24"
+      ]
+    },
+    {
+      "source": "cyclist",
+      "target": "horn",
+      "weight": 6,
+      "category": "Road Safety Questions Set 5",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "683662bd6dd7ac33fb27d108:67d1069659703608767cad4d",
+        "684aa0d296f20e38e9c864c2:67d10444b148cbb2a00c77d1",
+        "684aa0d296f20e38e9c864c2:67d105b75e7738adf6626631",
+        "684aa0d296f20e38e9c864c2:684aa2cebce68bf78d782719",
+        "684aa0d296f20e38e9c864c2:684aa2cbbd10300a252fc861",
+        "684aa0d296f20e38e9c864c2:684aa2dbd6e30a1cb1512bbe"
+      ]
+    },
+    {
+      "source": "cyclist",
+      "target": "parking",
+      "weight": 3,
+      "category": "Road Safety Questions Set 5",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "683662bd6dd7ac33fb27d108:67d1069659703608767cad4d",
+        "684aa0d296f20e38e9c864c2:684aa2cebce68bf78d782719",
+        "684aa0d296f20e38e9c864c2:684aa2dbd6e30a1cb1512bbe"
+      ]
+    },
+    {
+      "source": "cyclist",
+      "target": "pedestrian",
+      "weight": 2,
+      "category": "General Questions Set 2",
+      "topic": "General Questions",
+      "color": "#22c55e",
+      "questionIds": [
+        "683822236f838064b3540579:67d0eff4186c9746b6e4f9ac",
+        "684aa0d296f20e38e9c864c2:684aa2c437631ffc9563d88c"
+      ]
+    },
+    {
+      "source": "cyclist",
+      "target": "dipped-headlights",
+      "weight": 2,
+      "category": "General Questions Set 2",
+      "topic": "General Questions",
+      "color": "#22c55e",
+      "questionIds": [
+        "683822236f838064b3540579:67d103dfba7c5cbd1f2e4912",
+        "684aa0d296f20e38e9c864c2:684aa2cebce68bf78d782719"
+      ]
+    },
+    {
+      "source": "dipped-headlights",
+      "target": "horn",
+      "weight": 2,
+      "category": "Road Safety Questions Set 4",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "68074118db22d4178385bb9c:673af16f25d25160d519989c",
+        "684aa0d296f20e38e9c864c2:684aa2cebce68bf78d782719"
+      ]
+    },
+    {
+      "source": "dipped-headlights",
+      "target": "overtaking",
+      "weight": 2,
+      "category": "Road Safety Questions Set 4",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "68074118db22d4178385bb9c:67d0f6e814ef0505bb0dd88b",
+        "6848ff9a095c7f327aa1d12e:67d1069659703608767cad4d"
+      ]
+    },
+    {
+      "source": "dipped-headlights",
+      "target": "junction",
+      "weight": 2,
+      "category": "General Questions Set 1",
+      "topic": "General Questions",
+      "color": "#22c55e",
+      "questionIds": [
+        "6836c1c8f878ba84cbb587b8:67d106d2e3673a50102712a0",
+        "6848ff9a095c7f327aa1d12e:67d1069659703608767cad4d"
+      ]
+    },
+    {
+      "source": "distance",
+      "target": "rain",
+      "weight": 2,
+      "category": "Road Safety Questions Set 2",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "6805c8ce68c71eb0163eb97d:67d1069659703608767cad4d",
+        "68074118db22d4178385bb9c:6731936427aeb3ce5c57f8e8"
+      ]
+    },
+    {
+      "source": "emergency-vehicle",
+      "target": "siren",
+      "weight": 4,
+      "category": "General Questions Set 1",
+      "topic": "General Questions",
+      "color": "#22c55e",
+      "questionIds": [
+        "6836c1c8f878ba84cbb587b8:67d105b75e7738adf6626631",
+        "6836c1c8f878ba84cbb587b8:67d1069659703608767cad4d",
+        "683822236f838064b3540579:67318f8c27aeb3ce5c571ecd",
+        "683822236f838064b3540579:67d105b75e7738adf6626631"
+      ]
+    },
+    {
+      "source": "emergency-vehicle",
+      "target": "give-way",
+      "weight": 2,
+      "category": "General Questions Set 2",
+      "topic": "General Questions",
+      "color": "#22c55e",
+      "questionIds": [
+        "683822236f838064b3540579:67318011edb5f0662805f0d8",
+        "683822236f838064b3540579:67d105b75e7738adf6626631"
+      ]
+    },
+    {
+      "source": "expressway",
+      "target": "road-shoulder",
+      "weight": 10,
+      "category": "Traffic Rules Set 1",
+      "topic": "Traffic Rules",
+      "color": "#3b82f6",
+      "questionIds": [
+        "682d6f8b810acfbebc499aed:67d0f0bee6c56d64f155257b",
+        "682d6f8b810acfbebc499aed:67d106d2e3673a50102712a0",
+        "682d9778d30b190eea3d7550:67318011edb5f0662805f0d8",
+        "6834108eb1501f0fca41701d:67d10444b148cbb2a00c77d1",
+        "68351f44397a84e42dad983a:67d0f0bee6c56d64f155257b",
+        "68351f44397a84e42dad983a:67d0f1c32bd7fa4094849780",
+        "683662bd6dd7ac33fb27d108:683531f42f0a7ff0105be407",
+        "683822236f838064b3540579:6731936427aeb3ce5c57f8e8",
+        "68466648654b48845d78f309:6731936427aeb3ce5c57f8e8",
+        "684aa0d296f20e38e9c864c2:67318011edb5f0662805f0d8"
+      ]
+    },
+    {
+      "source": "expressway",
+      "target": "overtaking",
+      "weight": 5,
+      "category": "Competency Questions Set 2",
+      "topic": "Competency",
+      "color": "#8b5cf6",
+      "questionIds": [
+        "682fec4b79ffe8bbec2a3931:67d0f0bee6c56d64f155257b",
+        "682fec4b79ffe8bbec2a3931:67d105f9a748faa00fd55644",
+        "682fec4b79ffe8bbec2a3931:67d106d2e3673a50102712a0",
+        "683662bd6dd7ac33fb27d108:67318f8c27aeb3ce5c571ecd",
+        "683822236f838064b3540579:6731936427aeb3ce5c57f8e8"
+      ]
+    },
+    {
+      "source": "expressway",
+      "target": "speed-limit",
+      "weight": 2,
+      "category": "Competency Questions Set 2",
+      "topic": "Competency",
+      "color": "#8b5cf6",
+      "questionIds": [
+        "682fec4b79ffe8bbec2a3931:67d0f0bee6c56d64f155257b",
+        "682fec4b79ffe8bbec2a3931:67d105f9a748faa00fd55644"
+      ]
+    },
+    {
+      "source": "expressway",
+      "target": "rain",
+      "weight": 2,
+      "category": "Competency Questions Set 6",
+      "topic": "Competency",
+      "color": "#8b5cf6",
+      "questionIds": [
+        "683662bd6dd7ac33fb27d108:67318f8c27aeb3ce5c571ecd",
+        "68466648654b48845d78f309:67d105b75e7738adf6626631"
+      ]
+    },
+    {
+      "source": "give-way",
+      "target": "siren",
+      "weight": 2,
+      "category": "Alcohol / Road Safety",
+      "topic": "Alcohol / Road Safety",
+      "color": "#ef4444",
+      "questionIds": [
+        "6800a128460012b432cb6223:6731ac05c9064112eadb58e9",
+        "683822236f838064b3540579:67d105b75e7738adf6626631"
+      ]
+    },
+    {
+      "source": "horn",
+      "target": "overtaking",
+      "weight": 8,
+      "category": "Lane Discipline / Overtaking",
+      "topic": "Lane Discipline / Overtaking",
+      "color": "#ec4899",
+      "questionIds": [
+        "67f86c56b7134495e565a84c:67d105b75e7738adf6626631",
+        "67f86c56b7134495e565a84c:67d1078eba7c5cbd1f2f21e4",
+        "67f86c56b7134495e565a84c:67ef95afc70d16cc2446db8e",
+        "68466648654b48845d78f309:67318f8c27aeb3ce5c571ecd",
+        "6848ff9a095c7f327aa1d12e:67318011edb5f0662805f0d8",
+        "684aa0d296f20e38e9c864c2:67d105b75e7738adf6626631",
+        "684aa0d296f20e38e9c864c2:684aa2d074d35ce75a72f0c4",
+        "684aa0d296f20e38e9c864c2:684aa2cbbd10300a252fc861"
+      ]
+    },
+    {
+      "source": "horn",
+      "target": "parking",
+      "weight": 5,
+      "category": "Competency Questions Set 5",
+      "topic": "Competency",
+      "color": "#8b5cf6",
+      "questionIds": [
+        "68351f44397a84e42dad983a:67318f8c27aeb3ce5c571ecd",
+        "68351f44397a84e42dad983a:67d107fd9a9b271dd2efc94a",
+        "683662bd6dd7ac33fb27d108:67d1069659703608767cad4d",
+        "684aa0d296f20e38e9c864c2:684aa2cebce68bf78d782719",
+        "684aa0d296f20e38e9c864c2:684aa2dbd6e30a1cb1512bbe"
+      ]
+    },
+    {
+      "source": "horn",
+      "target": "junction",
+      "weight": 3,
+      "category": "Lane Discipline / Overtaking",
+      "topic": "Lane Discipline / Overtaking",
+      "color": "#ec4899",
+      "questionIds": [
+        "67f86c56b7134495e565a84c:67318011edb5f0662805f0d8",
+        "6848ff9a095c7f327aa1d12e:67318011edb5f0662805f0d8",
+        "684aa0d296f20e38e9c864c2:684aa2cbbd10300a252fc861"
+      ]
+    },
+    {
+      "source": "horn",
+      "target": "signal",
+      "weight": 3,
+      "category": "Lane Discipline / Overtaking",
+      "topic": "Lane Discipline / Overtaking",
+      "color": "#ec4899",
+      "questionIds": [
+        "67f86c56b7134495e565a84c:67d105b75e7738adf6626631",
+        "68466648654b48845d78f309:67d10749a5fdc2bbf2f3f374",
+        "684aa0d296f20e38e9c864c2:684aa2d074d35ce75a72f0c4"
+      ]
+    },
+    {
+      "source": "junction",
+      "target": "traffic-light",
+      "weight": 7,
+      "category": "Road Safety Questions Set 5",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "6800b808b7134495e54dfbd7:67d0f0bee6c56d64f155257b",
+        "682d9778d30b190eea3d7550:67d106d2e3673a50102712a0",
+        "684aa0d296f20e38e9c864c2:67d0f0bee6c56d64f155257b",
+        "684aa0d296f20e38e9c864c2:67d10312618e82f7e1341ea0",
+        "684aa0d296f20e38e9c864c2:67d103dfba7c5cbd1f2e4912",
+        "684aa0d296f20e38e9c864c2:684aa2cd5c6b456192f74ee2",
+        "684aa0d296f20e38e9c864c2:684aa2c6edffe5c03c899b22"
+      ]
+    },
+    {
+      "source": "junction",
+      "target": "signal",
+      "weight": 6,
+      "category": "Road Safety Questions Set 5",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "6800b808b7134495e54dfbd7:6731ac05c9064112eadb58e9",
+        "6805c8ce68c71eb0163eb97d:67d103dfba7c5cbd1f2e4912",
+        "684aa0d296f20e38e9c864c2:67d0f0bee6c56d64f155257b",
+        "684aa0d296f20e38e9c864c2:67d103dfba7c5cbd1f2e4912",
+        "684aa0d296f20e38e9c864c2:684aa2cd5c6b456192f74ee2",
+        "684aa0d296f20e38e9c864c2:684aa2c6edffe5c03c899b22"
+      ]
+    },
+    {
+      "source": "junction",
+      "target": "overtaking",
+      "weight": 5,
+      "category": "Road Safety Questions Set 5",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "6848ff9a095c7f327aa1d12e:67318011edb5f0662805f0d8",
+        "6848ff9a095c7f327aa1d12e:67d1069659703608767cad4d",
+        "684aa0d296f20e38e9c864c2:684aa2cbbd10300a252fc861",
+        "684aa0d296f20e38e9c864c2:684aa2d7810a653b411602f6",
+        "684aa0d296f20e38e9c864c2:684aa2ddf4af7c93f1628d24"
+      ]
+    },
+    {
+      "source": "junction",
+      "target": "pedestrian",
+      "weight": 3,
+      "category": "General Questions Set 2",
+      "topic": "General Questions",
+      "color": "#22c55e",
+      "questionIds": [
+        "683822236f838064b3540579:67d0eff4186c9746b6e4f9ac",
+        "683822236f838064b3540579:67d107fd9a9b271dd2efc94a",
+        "684aa0d296f20e38e9c864c2:684aa2c437631ffc9563d88c"
+      ]
+    },
+    {
+      "source": "junction",
+      "target": "u-turn",
+      "weight": 2,
+      "category": "Road Safety Questions Set 4",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "68074118db22d4178385bb9c:67d0f1c32bd7fa4094849780",
+        "684aa0d296f20e38e9c864c2:67d10312618e82f7e1341ea0"
+      ]
+    },
+    {
+      "source": "junction",
+      "target": "stop-line",
+      "weight": 2,
+      "category": "Road Safety Questions Set 5",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "684aa0d296f20e38e9c864c2:67d103dfba7c5cbd1f2e4912",
+        "684aa0d296f20e38e9c864c2:684aa2cd5c6b456192f74ee2"
+      ]
+    },
+    {
+      "source": "lorry",
+      "target": "overtaking",
+      "weight": 3,
+      "category": "Road Safety Questions Set 4",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "67f86c56b7134495e565a84c:67d10312618e82f7e1341ea0",
+        "68074118db22d4178385bb9c:67d0f6e814ef0505bb0dd88b",
+        "68074118db22d4178385bb9c:67d10397346de42dddeed8b5"
+      ]
+    },
+    {
+      "source": "lorry",
+      "target": "signal",
+      "weight": 3,
+      "category": "Road Safety Questions Set 4",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "67f86c56b7134495e565a84c:67d10312618e82f7e1341ea0",
+        "68074118db22d4178385bb9c:67d10397346de42dddeed8b5",
+        "68074118db22d4178385bb9c:67d103dfba7c5cbd1f2e4912"
+      ]
+    },
+    {
+      "source": "lorry",
+      "target": "pedestrian",
+      "weight": 2,
+      "category": "Road Safety Questions Set 4",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "68074118db22d4178385bb9c:67d103dfba7c5cbd1f2e4912",
+        "683822236f838064b3540579:67d0eff4186c9746b6e4f9ac"
+      ]
+    },
+    {
+      "source": "motorcycle-control",
+      "target": "skid",
+      "weight": 6,
+      "category": "Competency Questions Set 3",
+      "topic": "Competency",
+      "color": "#8b5cf6",
+      "questionIds": [
+        "682ee7b784b65a470cd6d417:67d10397346de42dddeed8b5",
+        "682ee7b784b65a470cd6d417:67d103dfba7c5cbd1f2e4912",
+        "6833beed2f0a7ff010213baf:67d0eff4186c9746b6e4f9ac",
+        "6833beed2f0a7ff010213baf:67d10397346de42dddeed8b5",
+        "6833beed2f0a7ff010213baf:67d107fd9a9b271dd2efc94a",
+        "6834108eb1501f0fca41701d:67d103dfba7c5cbd1f2e4912"
+      ]
+    },
+    {
+      "source": "motorcycle-control",
+      "target": "road-shoulder",
+      "weight": 2,
+      "category": "Road Safety Questions Set 1",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "6800b808b7134495e54dfbd7:67d107fd9a9b271dd2efc94a",
+        "6834108eb1501f0fca41701d:67d103dfba7c5cbd1f2e4912"
+      ]
+    },
+    {
+      "source": "overtaking",
+      "target": "signal",
+      "weight": 7,
+      "category": "Lane Discipline / Overtaking",
+      "topic": "Lane Discipline / Overtaking",
+      "color": "#ec4899",
+      "questionIds": [
+        "67f86c56b7134495e565a84c:67d10312618e82f7e1341ea0",
+        "67f86c56b7134495e565a84c:67d103dfba7c5cbd1f2e4912",
+        "67f86c56b7134495e565a84c:67d10444b148cbb2a00c77d1",
+        "67f86c56b7134495e565a84c:67d105b75e7738adf6626631",
+        "68074118db22d4178385bb9c:67d10312618e82f7e1341ea0",
+        "68074118db22d4178385bb9c:67d10397346de42dddeed8b5",
+        "684aa0d296f20e38e9c864c2:684aa2d074d35ce75a72f0c4"
+      ]
+    },
+    {
+      "source": "overtaking",
+      "target": "speed-limit",
+      "weight": 4,
+      "category": "Competency Questions Set 2",
+      "topic": "Competency",
+      "color": "#8b5cf6",
+      "questionIds": [
+        "67f86c56b7134495e565a84c:67d105f9a748faa00fd55644",
+        "682fec4b79ffe8bbec2a3931:67d0f0bee6c56d64f155257b",
+        "682fec4b79ffe8bbec2a3931:67d105f9a748faa00fd55644",
+        "684aa0d296f20e38e9c864c2:67318f8c27aeb3ce5c571ecd"
+      ]
+    },
+    {
+      "source": "overtaking",
+      "target": "rain",
+      "weight": 2,
+      "category": "Road Safety Questions Set 4",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "68074118db22d4178385bb9c:67d0f6e814ef0505bb0dd88b",
+        "683662bd6dd7ac33fb27d108:67318f8c27aeb3ce5c571ecd"
+      ]
+    },
+    {
+      "source": "rear-view-mirror",
+      "target": "road-shoulder",
+      "weight": 3,
+      "category": "Road Safety Questions Set 1",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "6800b808b7134495e54dfbd7:6731936427aeb3ce5c57f8e8",
+        "6800b808b7134495e54dfbd7:67d105f9a748faa00fd55644",
+        "6805c8ce68c71eb0163eb97d:67d10312618e82f7e1341ea0"
+      ]
+    },
+    {
+      "source": "road-shoulder",
+      "target": "signal",
+      "weight": 3,
+      "category": "Road Safety Questions Set 2",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "6805c8ce68c71eb0163eb97d:67d107fd9a9b271dd2efc94a",
+        "6834108eb1501f0fca41701d:67d103dfba7c5cbd1f2e4912",
+        "68466648654b48845d78f309:6731936427aeb3ce5c57f8e8"
+      ]
+    },
+    {
+      "source": "signal",
+      "target": "traffic-light",
+      "weight": 6,
+      "category": "Road Safety Questions Set 5",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "684aa0d296f20e38e9c864c2:67d0f0bee6c56d64f155257b",
+        "684aa0d296f20e38e9c864c2:67d0f1c32bd7fa4094849780",
+        "684aa0d296f20e38e9c864c2:67d103dfba7c5cbd1f2e4912",
+        "684aa0d296f20e38e9c864c2:684aa2cd5c6b456192f74ee2",
+        "684aa0d296f20e38e9c864c2:684aa2c6edffe5c03c899b22",
+        "684aa0d296f20e38e9c864c2:684aa2d496f20e38e9c8b064"
+      ]
+    },
+    {
+      "source": "signal",
+      "target": "stop-line",
+      "weight": 2,
+      "category": "Road Safety Questions Set 5",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "684aa0d296f20e38e9c864c2:67d103dfba7c5cbd1f2e4912",
+        "684aa0d296f20e38e9c864c2:684aa2cd5c6b456192f74ee2"
+      ]
+    },
+    {
+      "source": "stop-line",
+      "target": "traffic-light",
+      "weight": 2,
+      "category": "Road Safety Questions Set 5",
+      "topic": "Road Safety",
+      "color": "#f59e0b",
+      "questionIds": [
+        "684aa0d296f20e38e9c864c2:67d103dfba7c5cbd1f2e4912",
+        "684aa0d296f20e38e9c864c2:684aa2cd5c6b456192f74ee2"
+      ]
+    }
+  ],
+  "categories": [
+    "Alcohol / Road Safety",
+    "Competency Questions Set 2",
+    "Competency Questions Set 3",
+    "Competency Questions Set 6",
+    "General Questions Set 1",
+    "General Questions Set 2",
+    "General Questions Set 4",
+    "Lane Discipline / Overtaking",
+    "Road Safety Questions Set 1",
+    "Road Safety Questions Set 2",
+    "Road Safety Questions Set 4",
+    "Road Safety Questions Set 5",
+    "Traffic Rules Set 1",
+    "Traffic Rules Set 2"
+  ],
+  "layouts": {
+    "circular": {
+      "alcohol": {
+        "x": 845.6927398282327,
+        "y": 407.39154911222334
+      },
+      "ambulance": {
+        "x": 960.0,
+        "y": 501.7698354667315
+      },
+      "motorcycle-control": {
+        "x": 845.6927398282327,
+        "y": 596.1481218212397
+      },
+      "bend": {
+        "x": 768.0850322958033,
+        "y": 742.200087110353
+      },
+      "braking": {
+        "x": 801.7789887634176,
+        "y": 853.0349753168239
+      },
+      "expressway": {
+        "x": 696.9359128118755,
+        "y": 804.9649775934545
+      },
+      "flood": {
+        "x": 700.9641468589328,
+        "y": 920.7954388576833
+      },
+      "rain": {
+        "x": 612.061840949205,
+        "y": 847.0676201942827
+      },
+      "skid": {
+        "x": 586.14983508237,
+        "y": 960.0
+      },
+      "dipped-headlights": {
+        "x": 424.8161119246346,
+        "y": 859.4128907122096
+      },
+      "emergency-vehicle": {
+        "x": 346.2412447696389,
+        "y": 944.1826221489065
+      },
+      "give-way": {
+        "x": 335.20494175756096,
+        "y": 828.8142088450353
+      },
+      "helmet": {
+        "x": 237.49634019559238,
+        "y": 890.2386113165953
+      },
+      "pillion": {
+        "x": 256.52018710040227,
+        "y": 775.927993398511
+      },
+      "siren": {
+        "x": 146.3365308568099,
+        "y": 809.8210953851215
+      },
+      "lane-discipline": {
+        "x": 139.99609014497582,
+        "y": 572.9094622625034
+      },
+      "overtaking": {
+        "x": 40.0,
+        "y": 410.62218863464886
+      },
+      "blind-spot": {
+        "x": 212.82406091743476,
+        "y": 273.5270310378862
+      },
+      "cyclist": {
+        "x": 146.3365308568097,
+        "y": 193.71857554834162
+      },
+      "distance": {
+        "x": 233.6756597199316,
+        "y": 249.60980925749976
+      },
+      "horn": {
+        "x": 174.35603004738977,
+        "y": 164.27602943055444
+      },
+      "junction": {
+        "x": 256.5201871004019,
+        "y": 227.6116775349523
+      },
+      "lorry": {
+        "x": 204.81991601592313,
+        "y": 137.40201496103435
+      },
+      "parking": {
+        "x": 281.1837824115776,
+        "y": 207.70005493548746
+      },
+      "pedestrian": {
+        "x": 237.4963401955919,
+        "y": 113.30105961686795
+      },
+      "rear-view-mirror": {
+        "x": 307.4787408008546,
+        "y": 190.02648093005354
+      },
+      "reverse": {
+        "x": 272.13661526782494,
+        "y": 92.15658622077885
+      },
+      "right-of-way": {
+        "x": 335.2049417575609,
+        "y": 174.72546208842778
+      },
+      "road-shoulder": {
+        "x": 308.47710782295167,
+        "y": 74.12951698269381
+      },
+      "roundabout": {
+        "x": 364.1513721508774,
+        "y": 161.91344840300275
+      },
+      "signal": {
+        "x": 346.24124476963874,
+        "y": 59.357048784556554
+      },
+      "stop-line": {
+        "x": 394.0977321671788,
+        "y": 151.6879470340299
+      },
+      "traffic-light": {
+        "x": 385.14161822311246,
+        "y": 47.95160902921498
+      },
+      "u-turn": {
+        "x": 424.81611192463436,
+        "y": 144.12678022125368
+      },
+      "zebra-crossing": {
+        "x": 424.88217285270423,
+        "y": 40.0
+      },
+      "bus-lane": {
+        "x": 577.8545076342917,
+        "y": 146.64589013306397
+      },
+      "demerit-points": {
+        "x": 687.2245821263549,
+        "y": 76.20749404432254
+      },
+      "probation": {
+        "x": 706.6900602166294,
+        "y": 205.36553828561614
+      },
+      "speed-limit": {
+        "x": 834.5320577769043,
+        "y": 182.39043684766506
+      }
+    },
+    "force": {
+      "alcohol": {
+        "x": 560.6616322998176,
+        "y": 960.0
+      },
+      "ambulance": {
+        "x": 704.4993211538022,
+        "y": 264.34029587773534
+      },
+      "bend": {
+        "x": 210.0294664242681,
+        "y": 509.3463588375362
+      },
+      "blind-spot": {
+        "x": 295.6166840954769,
+        "y": 841.2990273077736
+      },
+      "braking": {
+        "x": 339.21310872013635,
+        "y": 754.1912966632833
+      },
+      "bus-lane": {
+        "x": 83.0081557305792,
+        "y": 816.7993661960803
+      },
+      "cyclist": {
+        "x": 300.7127241510154,
+        "y": 634.6746821894997
+      },
+      "demerit-points": {
+        "x": 226.02877186504,
+        "y": 86.85451646033444
+      },
+      "dipped-headlights": {
+        "x": 216.94322930704928,
+        "y": 615.7514304825564
+      },
+      "distance": {
+        "x": 562.1894752046109,
+        "y": 423.23613060608596
+      },
+      "emergency-vehicle": {
+        "x": 413.75393498519736,
+        "y": 138.60464500566192
+      },
+      "expressway": {
+        "x": 221.0618053267693,
+        "y": 718.1658611849982
+      },
+      "flood": {
+        "x": 475.1216134308565,
+        "y": 907.0985259494176
+      },
+      "give-way": {
+        "x": 310.1518270122983,
+        "y": 235.7116826606787
+      },
+      "helmet": {
+        "x": 681.6964551990891,
+        "y": 78.20161591158632
+      },
+      "horn": {
+        "x": 249.27087090489562,
+        "y": 663.2363873614505
+      },
+      "junction": {
+        "x": 397.808223860439,
+        "y": 653.8018189642667
+      },
+      "lane-discipline": {
+        "x": 952.8652995992022,
+        "y": 672.3048293277683
+      },
+      "lorry": {
+        "x": 313.36094781646017,
+        "y": 567.2676865330565
+      },
+      "motorcycle-control": {
+        "x": 431.303096371048,
+        "y": 831.1715537212152
+      },
+      "overtaking": {
+        "x": 276.52564549111315,
+        "y": 679.2621748941236
+      },
+      "parking": {
+        "x": 156.10797386476867,
+        "y": 669.3378691670403
+      },
+      "pedestrian": {
+        "x": 397.2722629480672,
+        "y": 516.1294955029302
+      },
+      "pillion": {
+        "x": 960.0,
+        "y": 532.721052544648
+      },
+      "probation": {
+        "x": 540.8113553501162,
+        "y": 40.0
+      },
+      "rain": {
+        "x": 401.75393121229,
+        "y": 606.3848159735426
+      },
+      "rear-view-mirror": {
+        "x": 337.0569303798667,
+        "y": 869.2842511483107
+      },
+      "reverse": {
+        "x": 798.8879492868978,
+        "y": 848.4004942727419
+      },
+      "right-of-way": {
+        "x": 40.0,
+        "y": 236.01087480371072
+      },
+      "road-shoulder": {
+        "x": 256.8646483757484,
+        "y": 801.2511468425951
+      },
+      "roundabout": {
+        "x": 381.4519268972418,
+        "y": 44.266502428539525
+      },
+      "signal": {
+        "x": 358.43560332877695,
+        "y": 720.202670588184
+      },
+      "siren": {
+        "x": 494.3801069416391,
+        "y": 220.25731238289592
+      },
+      "skid": {
+        "x": 386.9537125638771,
+        "y": 904.2401570822333
+      },
+      "speed-limit": {
+        "x": 95.24322363176418,
+        "y": 719.8851259764734
+      },
+      "stop-line": {
+        "x": 554.1224648862174,
+        "y": 702.7228842754129
+      },
+      "traffic-light": {
+        "x": 469.04046356972475,
+        "y": 710.4846669829365
+      },
+      "u-turn": {
+        "x": 644.3030904880007,
+        "y": 634.1172600987393
+      },
+      "zebra-crossing": {
+        "x": 891.0718128652737,
+        "y": 233.13544930217577
+      }
+    },
+    "spread": {
+      "alcohol": {
+        "x": 768.0173381768078,
+        "y": 153.1097023650883
+      },
+      "ambulance": {
+        "x": 83.90568705040235,
+        "y": 268.82152343833104
+      },
+      "bend": {
+        "x": 938.8996455299068,
+        "y": 395.77771935579347
+      },
+      "blind-spot": {
+        "x": 851.2089267167391,
+        "y": 533.5409552439535
+      },
+      "braking": {
+        "x": 753.9620002646809,
+        "y": 410.67190211332814
+      },
+      "bus-lane": {
+        "x": 119.60764244779268,
+        "y": 804.9527872693642
+      },
+      "cyclist": {
+        "x": 594.2188278350872,
+        "y": 497.4198511765342
+      },
+      "demerit-points": {
+        "x": 409.5478655397856,
+        "y": 954.2761509921155
+      },
+      "dipped-headlights": {
+        "x": 567.773631726455,
+        "y": 458.6571543123965
+      },
+      "distance": {
+        "x": 668.1905441679663,
+        "y": 195.11618390528366
+      },
+      "emergency-vehicle": {
+        "x": 408.06624881988665,
+        "y": 307.3441576245125
+      },
+      "expressway": {
+        "x": 660.4623938905006,
+        "y": 493.9456927999731
+      },
+      "flood": {
+        "x": 916.703534308361,
+        "y": 327.4888444822517
+      },
+      "give-way": {
+        "x": 298.4075130559891,
+        "y": 212.3395838985219
+      },
+      "helmet": {
+        "x": 40.0,
+        "y": 679.8016787470951
+      },
+      "horn": {
+        "x": 632.7646636034212,
+        "y": 470.63155236036215
+      },
+      "junction": {
+        "x": 530.544755477925,
+        "y": 586.1774938291501
+      },
+      "lane-discipline": {
+        "x": 322.8541345843523,
+        "y": 71.61123268625721
+      },
+      "lorry": {
+        "x": 660.5198308235606,
+        "y": 654.3462146036036
+      },
+      "motorcycle-control": {
+        "x": 823.1374879784385,
+        "y": 300.44416651767915
+      },
+      "overtaking": {
+        "x": 594.1665088461748,
+        "y": 534.0723753160544
+      },
+      "parking": {
+        "x": 574.4290580747994,
+        "y": 389.2112385872076
+      },
+      "pedestrian": {
+        "x": 549.2631909463471,
+        "y": 639.6148163110514
+      },
+      "pillion": {
+        "x": 548.4945055875467,
+        "y": 960.0
+      },
+      "probation": {
+        "x": 685.1620865836979,
+        "y": 910.5408048535029
+      },
+      "rain": {
+        "x": 666.2979352125741,
+        "y": 362.10568323346905
+      },
+      "rear-view-mirror": {
+        "x": 960.0,
+        "y": 545.578283606693
+      },
+      "reverse": {
+        "x": 116.11737078930388,
+        "y": 201.32486490939112
+      },
+      "right-of-way": {
+        "x": 274.40810085232675,
+        "y": 910.902775613729
+      },
+      "road-shoulder": {
+        "x": 825.012839197091,
+        "y": 476.44415130271096
+      },
+      "roundabout": {
+        "x": 886.7100841866098,
+        "y": 751.0191175939312
+      },
+      "signal": {
+        "x": 692.2033225857169,
+        "y": 574.4008359940217
+      },
+      "siren": {
+        "x": 227.8032647546966,
+        "y": 258.2692867693331
+      },
+      "skid": {
+        "x": 880.6221137120627,
+        "y": 266.9010064603326
+      },
+      "speed-limit": {
+        "x": 468.8861850629923,
+        "y": 540.9567342871669
+      },
+      "stop-line": {
+        "x": 562.206027402544,
+        "y": 698.8958972108948
+      },
+      "traffic-light": {
+        "x": 612.4257782699234,
+        "y": 703.5965590841068
+      },
+      "u-turn": {
+        "x": 316.24876868219,
+        "y": 607.4652812372378
+      },
+      "zebra-crossing": {
+        "x": 496.30280028417945,
+        "y": 40.0
+      }
+    }
+  }
+}
