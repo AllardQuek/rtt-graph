@@ -322,10 +322,11 @@ export function RoadNetwork({ graph, stats, onActivate, title, subtitle, variant
             const dim = selectedId && !isActive
             const showLabel = isActive || visibleIds.has(n.id)
             const color = n.color
-            const fillOpacity = isSelected ? (cleared ? 0.35 : 0.55) : (cleared ? 0.1 : 0.22)
-            const strokeWidth = isSelected ? 3 : 2
-            const glowOpacity = isSelected ? (cleared ? 0.15 : 0.6) : (cleared ? 0.05 : 0.3)
-            const glowRadius = isSelected ? (cleared ? 7 : 14) : (cleared ? 3 : 8)
+            const fillOpacity = isSelected ? (cleared ? 0.28 : 0.5) : (cleared ? 0.15 : 0.28)
+            const strokeWidth = isSelected ? (cleared ? 2 : 3) : (cleared ? 1 : 2)
+            const strokeOpacity = cleared ? (isSelected ? 0.45 : 0.3) : 1
+            const glowRadius = isSelected ? 14 : 6
+            const nodeFilter = cleared ? undefined : `drop-shadow(0 0 ${glowRadius}px ${color})`
             return (
               <g key={n.id} transform={`translate(${n.x}, ${n.y})`}>
                 <circle
@@ -333,14 +334,14 @@ export function RoadNetwork({ graph, stats, onActivate, title, subtitle, variant
                   r={n.r + 6}
                   fill="none"
                   stroke={color}
-                  strokeOpacity={glowOpacity}
+                  strokeOpacity={isSelected ? 0.6 : 0.25}
                   strokeWidth={1}
                   filter="url(#glow)"
-                  opacity={dim ? 0.15 : 1}
+                  opacity={cleared ? 0 : (dim ? 0.15 : 1)}
                   pointerEvents="none"
                 />
                 <circle
-                  className={`node-hit ${isSelected ? 'selected' : ''}`}
+                  className={`node-hit ${isSelected ? 'selected' : ''} ${cleared ? 'cleared' : ''}`}
                   r={n.r}
                   cx={0}
                   cy={0}
@@ -348,8 +349,9 @@ export function RoadNetwork({ graph, stats, onActivate, title, subtitle, variant
                   fillOpacity={fillOpacity}
                   stroke={color}
                   strokeWidth={strokeWidth}
+                  strokeOpacity={strokeOpacity}
                   opacity={dim ? 0.2 : 1}
-                  style={{ filter: `drop-shadow(0 0 ${glowRadius}px ${color})` }}
+                  style={{ filter: nodeFilter }}
                   pointerEvents="none"
                 />
                 <circle
