@@ -255,7 +255,7 @@ export function RoadNetwork({ graph, stats, onActivate, title, subtitle, variant
         <div className="node-info">
           <div className="node-info-title" style={{ color: selectedNode.color }}>{selectedNode.label}</div>
           <div className="node-info-row"><span>Topic</span>{selectedNode.topic}</div>
-          <div className="node-info-row"><span>Questions</span>{selectedNode.count}</div>
+          <div className="node-info-row"><span>Mastered</span>{selectedNode.questionIds.filter(id => stats.questions[id]?.correct > 0).length}/{selectedNode.questionIds.length}</div>
           <div className="node-info-row"><span>Links</span>{connectionCount}</div>
           <div className="node-info-row"><span>Source</span>{selectedNode.category}</div>
         </div>
@@ -316,17 +316,22 @@ export function RoadNetwork({ graph, stats, onActivate, title, subtitle, variant
             />
           )}
           {nodeList.map(n => {
-            const cleared = stats.clearedNodes.includes(n.id)
+            const mastered = n.questionIds.filter(id => stats.questions[id]?.correct > 0).length
+            const isComplete = mastered === n.questionIds.length
+            const frac = n.questionIds.length ? mastered / n.questionIds.length : 0
+            const ringR = n.r + 9
+            const circ = 2 * Math.PI * ringR
+            const dash = frac * circ
             const isSelected = selectedId === n.id
             const isActive = !selectedId || activeIds.has(n.id)
             const dim = selectedId && !isActive
             const showLabel = isActive || visibleIds.has(n.id)
             const color = n.color
-            const fillOpacity = isSelected ? (cleared ? 0.28 : 0.5) : (cleared ? 0.15 : 0.28)
-            const strokeWidth = isSelected ? (cleared ? 2 : 3) : (cleared ? 1 : 2)
-            const strokeOpacity = cleared ? (isSelected ? 0.45 : 0.3) : 1
+            const fillOpacity = isSelected ? (isComplete ? 0.28 : 0.5) : (isComplete ? 0.15 : 0.28)
+            const strokeWidth = isSelected ? (isComplete ? 2 : 3) : (isComplete ? 1 : 2)
+            const strokeOpacity = isComplete ? (isSelected ? 0.45 : 0.3) : 1
             const glowRadius = isSelected ? 14 : 6
-            const nodeFilter = cleared ? undefined : `drop-shadow(0 0 ${glowRadius}px ${color})`
+            const nodeFilter = isComplete ? undefined : `drop-shadow(0 0 ${glowRadius}px ${color})`
             return (
               <g key={n.id} transform={`translate(${n.x}, ${n.y})`}>
                 <circle
@@ -337,11 +342,22 @@ export function RoadNetwork({ graph, stats, onActivate, title, subtitle, variant
                   strokeOpacity={isSelected ? 0.6 : 0.25}
                   strokeWidth={1}
                   filter="url(#glow)"
-                  opacity={cleared ? 0 : (dim ? 0.15 : 1)}
+                  opacity={isComplete ? 0 : (dim ? 0.15 : 1)}
                   pointerEvents="none"
                 />
                 <circle
-                  className={`node-hit ${isSelected ? 'selected' : ''} ${cleared ? 'cleared' : ''}`}
+                  className="node-progress"
+                  r={ringR}
+                  fill="none"
+                  stroke={color}
+                  strokeWidth={2}
+                  strokeDasharray={`${dash} ${circ}`}
+                  transform="rotate(-90)"
+                  opacity={0.9}
+                  pointerEvents="none"
+                />
+                <circle
+                  className={`node-hit ${isSelected ? 'selected' : ''} ${isComplete ? 'cleared' : ''}`}
                   r={n.r}
                   cx={0}
                   cy={0}
@@ -355,7 +371,7 @@ export function RoadNetwork({ graph, stats, onActivate, title, subtitle, variant
                   pointerEvents="none"
                 />
                 <circle
-                  className={`node-target ${isSelected ? 'selected' : ''} ${cleared ? 'cleared' : ''}`}
+                  className={`node-target ${isSelected ? 'selected' : ''} ${isComplete ? 'cleared' : ''}`}
                   r={n.r + 14}
                   cx={0}
                   cy={0}

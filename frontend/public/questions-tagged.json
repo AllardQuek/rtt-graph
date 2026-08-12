@@ -34,7 +34,10 @@
     "answer_letter": "A",
     "answer_text": "the left lane.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "lane-discipline",
+      "lane-position"
+    ]
   },
   {
     "id": "67f86c56b7134495e565a84c:6731936427aeb3ce5c57f8e8",
@@ -52,7 +55,9 @@
     "answer_text": "keep to the left lane",
     "explanation": null,
     "conceptIds": [
-      "overtaking"
+      "overtaking",
+      "carriageway",
+      "keep-left"
     ]
   },
   {
@@ -70,7 +75,10 @@
     "answer_letter": "B",
     "answer_text": "cause inconvenience and danger to other motorists.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "lane-discipline",
+      "lane-position"
+    ]
   },
   {
     "id": "67f86c56b7134495e565a84c:673af16f25d25160d519989c",
@@ -88,8 +96,10 @@
     "answer_text": "form up correctly into the intended lane before reaching the junction",
     "explanation": null,
     "conceptIds": [
+      "distance",
       "junction",
-      "lane-discipline"
+      "lane-discipline",
+      "lane-position"
     ]
   },
   {
@@ -108,7 +118,8 @@
     "answer_text": "When your path is obstructed.",
     "explanation": null,
     "conceptIds": [
-      "speed-limit"
+      "speed-limit",
+      "keep-left"
     ]
   },
   {
@@ -146,7 +157,9 @@
     "answer_letter": "A",
     "answer_text": "In the right hand lane.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "turning"
+    ]
   },
   {
     "id": "67f86c56b7134495e565a84c:67d0f6e814ef0505bb0dd88b",
@@ -163,7 +176,9 @@
     "answer_letter": "C",
     "answer_text": "Left lane.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "carriageway"
+    ]
   },
   {
     "id": "67f86c56b7134495e565a84c:67d10312618e82f7e1341ea0",
@@ -183,7 +198,8 @@
     "conceptIds": [
       "lorry",
       "overtaking",
-      "signal"
+      "signal",
+      "turning"
     ]
   },
   {
@@ -203,7 +219,8 @@
     "explanation": null,
     "conceptIds": [
       "overtaking",
-      "rear-view-mirror"
+      "rear-view-mirror",
+      "keep-left"
     ]
   },
   {
@@ -383,7 +400,8 @@
     "answer_text": "Accelerate and overtake as quickly as possible",
     "explanation": null,
     "conceptIds": [
-      "overtaking"
+      "overtaking",
+      "gears"
     ]
   },
   {
@@ -441,7 +459,8 @@
     "answer_text": "may affect your reaction time.",
     "explanation": null,
     "conceptIds": [
-      "alcohol"
+      "alcohol",
+      "reaction-time"
     ]
   },
   {
@@ -482,7 +501,8 @@
       "alcohol",
       "ambulance",
       "give-way",
-      "siren"
+      "siren",
+      "documents-penalties"
     ]
   },
   {
@@ -807,7 +827,9 @@
     "answer_letter": "A",
     "answer_text": "Drugs",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "reaction-time"
+    ]
   },
   {
     "id": "6800b808b7134495e54dfbd7:67318011edb5f0662805f0d8",
@@ -824,7 +846,9 @@
     "answer_letter": "B",
     "answer_text": "Good.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "two-second-rule"
+    ]
   },
   {
     "id": "6800b808b7134495e54dfbd7:67318f8c27aeb3ce5c571ecd",
@@ -841,7 +865,9 @@
     "answer_letter": "C",
     "answer_text": "a two second time gap.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "distance"
+    ]
   },
   {
     "id": "6800b808b7134495e54dfbd7:6731936427aeb3ce5c57f8e8",
@@ -880,8 +906,12 @@
     "answer_text": "A safe distance between your vehicle and the vehicle in front.",
     "explanation": null,
     "conceptIds": [
+      "distance",
       "junction",
-      "signal"
+      "signal",
+      "two-second-rule",
+      "mirror-signal-manoeuvre",
+      "move-off"
     ]
   },
   {
@@ -979,7 +1009,8 @@
     "answer_text": "any speed.",
     "explanation": null,
     "conceptIds": [
-      "distance"
+      "distance",
+      "two-second-rule"
     ]
   },
   {
@@ -1154,7 +1185,10 @@
     "answer_letter": "A",
     "answer_text": "Two-second rule",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "distance",
+      "two-second-rule"
+    ]
   },
   {
     "id": "6800b808b7134495e54dfbd7:67d107fd9a9b271dd2efc94a",
@@ -1174,7 +1208,8 @@
     "conceptIds": [
       "cyclist",
       "motorcycle-control",
-      "road-shoulder"
+      "road-shoulder",
+      "turning"
     ]
   },
   {
@@ -1232,7 +1267,9 @@
     "answer_letter": "B",
     "answer_text": "All speed",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "two-second-rule"
+    ]
   },
   {
     "id": "6805c8ce68c71eb0163eb97d:673af16f25d25160d519989c",
@@ -1270,7 +1307,8 @@
     "answer_text": "Requires a longer braking distance than if it were without goods.",
     "explanation": null,
     "conceptIds": [
-      "braking"
+      "braking",
+      "load-carrying"
     ]
   },
   {
@@ -1413,7 +1451,8 @@
     "explanation": null,
     "conceptIds": [
       "bend",
-      "u-turn"
+      "u-turn",
+      "turning"
     ]
   },
   {
@@ -1450,7 +1489,11 @@
     "answer_letter": "A",
     "answer_text": "in the centre or left of your lane",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "lane-discipline",
+      "road-marking",
+      "lane-position"
+    ]
   },
   {
     "id": "6805c8ce68c71eb0163eb97d:67d1069659703608767cad4d",
@@ -1527,7 +1570,8 @@
     "explanation": null,
     "conceptIds": [
       "distance",
-      "probation"
+      "probation",
+      "tyre"
     ]
   },
   {
@@ -1548,7 +1592,8 @@
     "conceptIds": [
       "parking",
       "road-shoulder",
-      "signal"
+      "signal",
+      "move-off"
     ]
   },
   {
@@ -1566,7 +1611,10 @@
     "answer_letter": "C",
     "answer_text": "may result in your feet being caught between the gear levers",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "gears",
+      "protective-gear"
+    ]
   },
   {
     "id": "6806f42adb22d4178372d9b9:67318f8c27aeb3ce5c571ecd",
@@ -1602,7 +1650,11 @@
     "answer_letter": "C",
     "answer_text": "Move off to the left of the road and have a rest.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "fatigue",
+      "gears",
+      "move-off"
+    ]
   },
   {
     "id": "6806f42adb22d4178372d9b9:673af16f25d25160d519989c",
@@ -1619,7 +1671,9 @@
     "answer_letter": "B",
     "answer_text": "reduce your speed",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "road-conditions"
+    ]
   },
   {
     "id": "6806f42adb22d4178372d9b9:67d0eff4186c9746b6e4f9ac",
@@ -1677,7 +1731,9 @@
     "answer_letter": "C",
     "answer_text": "ease off the accelerator",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "topic-road-safety"
+    ]
   },
   {
     "id": "6806f42adb22d4178372d9b9:67d0f6e814ef0505bb0dd88b",
@@ -1714,7 +1770,9 @@
     "answer_text": "maintain a longer following distance",
     "explanation": null,
     "conceptIds": [
-      "distance"
+      "distance",
+      "night-visibility",
+      "gears"
     ]
   },
   {
@@ -1773,7 +1831,8 @@
     "conceptIds": [
       "blind-spot",
       "braking",
-      "signal"
+      "signal",
+      "road-marking"
     ]
   },
   {
@@ -1792,7 +1851,8 @@
     "answer_text": "avoid sudden or quick movements",
     "explanation": null,
     "conceptIds": [
-      "braking"
+      "braking",
+      "gears"
     ]
   },
   {
@@ -1849,7 +1909,9 @@
     "answer_letter": "B",
     "answer_text": "move over and let him pass",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "topic-road-safety"
+    ]
   },
   {
     "id": "68074118db22d4178385bb9c:67318f8c27aeb3ce5c571ecd",
@@ -1948,7 +2010,9 @@
     "answer_letter": "C",
     "answer_text": "stop immediately",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "fire-emergency"
+    ]
   },
   {
     "id": "68074118db22d4178385bb9c:67d0f0bee6c56d64f155257b",
@@ -2148,7 +2212,8 @@
     "answer_text": "13 demerit points.",
     "explanation": null,
     "conceptIds": [
-      "demerit-points"
+      "demerit-points",
+      "licence"
     ]
   },
   {
@@ -2224,7 +2289,8 @@
     "answer_text": "24 demerit points.",
     "explanation": null,
     "conceptIds": [
-      "demerit-points"
+      "demerit-points",
+      "documents-penalties"
     ]
   },
   {
@@ -2243,7 +2309,8 @@
     "answer_text": "24 demerit points within 24 months.",
     "explanation": null,
     "conceptIds": [
-      "demerit-points"
+      "demerit-points",
+      "documents-penalties"
     ]
   },
   {
@@ -2282,7 +2349,9 @@
     "answer_letter": "C",
     "answer_text": "12 months.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "documents-penalties"
+    ]
   },
   {
     "id": "682d6f8b810acfbebc499aed:67d0f6e814ef0505bb0dd88b",
@@ -2299,7 +2368,9 @@
     "answer_letter": "A",
     "answer_text": "1 year.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "licence"
+    ]
   },
   {
     "id": "682d6f8b810acfbebc499aed:67d10312618e82f7e1341ea0",
@@ -2336,7 +2407,9 @@
     "answer_text": "have to pay a fine.",
     "explanation": null,
     "conceptIds": [
-      "probation"
+      "probation",
+      "licence",
+      "documents-penalties"
     ]
   },
   {
@@ -2355,7 +2428,9 @@
     "answer_text": "have his licence be revoked.",
     "explanation": null,
     "conceptIds": [
-      "probation"
+      "probation",
+      "licence",
+      "documents-penalties"
     ]
   },
   {
@@ -2375,7 +2450,8 @@
     "explanation": null,
     "conceptIds": [
       "demerit-points",
-      "probation"
+      "probation",
+      "licence"
     ]
   },
   {
@@ -2394,7 +2470,8 @@
     "answer_text": "12 months from the date of the grant of the licence.",
     "explanation": null,
     "conceptIds": [
-      "demerit-points"
+      "demerit-points",
+      "licence"
     ]
   },
   {
@@ -2413,7 +2490,8 @@
     "answer_text": "have your licence revoked.",
     "explanation": null,
     "conceptIds": [
-      "demerit-points"
+      "demerit-points",
+      "licence"
     ]
   },
   {
@@ -2432,7 +2510,8 @@
     "answer_text": "13 driving demerit points.",
     "explanation": null,
     "conceptIds": [
-      "demerit-points"
+      "demerit-points",
+      "licence"
     ]
   },
   {
@@ -2470,7 +2549,9 @@
     "answer_letter": "B",
     "answer_text": "Not allowed",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "dipped-headlights"
+    ]
   },
   {
     "id": "682d6f8b810acfbebc499aed:67d1078eba7c5cbd1f2f21e4",
@@ -2565,7 +2646,8 @@
     "answer_text": "have his licence revoked",
     "explanation": null,
     "conceptIds": [
-      "probation"
+      "probation",
+      "licence"
     ]
   },
   {
@@ -2584,7 +2666,8 @@
     "answer_text": "have his licence revoked",
     "explanation": null,
     "conceptIds": [
-      "demerit-points"
+      "demerit-points",
+      "licence"
     ]
   },
   {
@@ -2603,7 +2686,8 @@
     "answer_text": "have to pay fine",
     "explanation": null,
     "conceptIds": [
-      "probation"
+      "probation",
+      "licence"
     ]
   },
   {
@@ -2621,7 +2705,9 @@
     "answer_letter": "B",
     "answer_text": "12 months from date of revocation",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "licence"
+    ]
   },
   {
     "id": "682d9778d30b190eea3d7550:67d0f6e814ef0505bb0dd88b",
@@ -2639,7 +2725,8 @@
     "answer_text": "have his licence  be revoked",
     "explanation": null,
     "conceptIds": [
-      "probation"
+      "probation",
+      "licence"
     ]
   },
   {
@@ -2714,7 +2801,9 @@
     "answer_letter": "B",
     "answer_text": "When your path is obstructed",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "keep-left"
+    ]
   },
   {
     "id": "682d9778d30b190eea3d7550:67d105b75e7738adf6626631",
@@ -2752,7 +2841,8 @@
     "explanation": null,
     "conceptIds": [
       "demerit-points",
-      "speed-limit"
+      "speed-limit",
+      "licence"
     ]
   },
   {
@@ -2770,7 +2860,9 @@
     "answer_letter": "C",
     "answer_text": "stay in your lane and follow the queue.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "topic-traffic-rules"
+    ]
   },
   {
     "id": "682d9778d30b190eea3d7550:67d106d2e3673a50102712a0",
@@ -2808,7 +2900,9 @@
     "answer_letter": "A",
     "answer_text": "one year",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "licence"
+    ]
   },
   {
     "id": "682d9778d30b190eea3d7550:67d1078eba7c5cbd1f2f21e4",
@@ -2863,7 +2957,9 @@
     "answer_letter": "A",
     "answer_text": "in the right hand lane",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "turning"
+    ]
   },
   {
     "id": "682d9778d30b190eea3d7550:682d9a382a29e0350b96015a",
@@ -2880,7 +2976,9 @@
     "answer_letter": "C",
     "answer_text": "Left lane",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "carriageway"
+    ]
   },
   {
     "id": "682d9778d30b190eea3d7550:682d9a5aca72253b481c4177",
@@ -2917,7 +3015,8 @@
     "answer_text": "On coming traffic is preventing you from turning right.",
     "explanation": null,
     "conceptIds": [
-      "junction"
+      "junction",
+      "turning"
     ]
   },
   {
@@ -2935,7 +3034,9 @@
     "answer_letter": "C",
     "answer_text": "pressing lightly against the fuel tank",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "riding-posture"
+    ]
   },
   {
     "id": "682ee7b784b65a470cd6d417:67318f8c27aeb3ce5c571ecd",
@@ -2971,7 +3072,9 @@
     "answer_letter": "A",
     "answer_text": "reduced.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "topic-competency"
+    ]
   },
   {
     "id": "682ee7b784b65a470cd6d417:6731ac05c9064112eadb58e9",
@@ -2988,7 +3091,9 @@
     "answer_letter": "C",
     "answer_text": "are damaged or worn out.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "tyre"
+    ]
   },
   {
     "id": "682ee7b784b65a470cd6d417:673af16f25d25160d519989c",
@@ -3005,7 +3110,9 @@
     "answer_letter": "C",
     "answer_text": "straight forward.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "riding-posture"
+    ]
   },
   {
     "id": "682ee7b784b65a470cd6d417:67d0eff4186c9746b6e4f9ac",
@@ -3022,7 +3129,9 @@
     "answer_letter": "A",
     "answer_text": "pressing lightly against the fuel tank.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "topic-competency"
+    ]
   },
   {
     "id": "682ee7b784b65a470cd6d417:67d0f0bee6c56d64f155257b",
@@ -3039,7 +3148,9 @@
     "answer_letter": "B",
     "answer_text": "arches of your feet on the footrest.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "riding-posture"
+    ]
   },
   {
     "id": "682ee7b784b65a470cd6d417:67d0f1c32bd7fa4094849780",
@@ -3094,7 +3205,9 @@
     "answer_letter": "A",
     "answer_text": "close to the tank.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "topic-competency"
+    ]
   },
   {
     "id": "682ee7b784b65a470cd6d417:67d10397346de42dddeed8b5",
@@ -3114,7 +3227,8 @@
     "conceptIds": [
       "braking",
       "motorcycle-control",
-      "skid"
+      "skid",
+      "gears"
     ]
   },
   {
@@ -3135,7 +3249,8 @@
     "conceptIds": [
       "braking",
       "motorcycle-control",
-      "skid"
+      "skid",
+      "gear-clutch-throttle"
     ]
   },
   {
@@ -3154,7 +3269,8 @@
     "answer_text": "apply only the brakes.",
     "explanation": null,
     "conceptIds": [
-      "braking"
+      "braking",
+      "gear-clutch-throttle"
     ]
   },
   {
@@ -3172,7 +3288,9 @@
     "answer_letter": "B",
     "answer_text": "increase.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "gears"
+    ]
   },
   {
     "id": "682ee7b784b65a470cd6d417:67d105f9a748faa00fd55644",
@@ -3190,7 +3308,8 @@
     "answer_text": "Going round a bend.",
     "explanation": null,
     "conceptIds": [
-      "bend"
+      "bend",
+      "gear-clutch-throttle"
     ]
   },
   {
@@ -3208,7 +3327,9 @@
     "answer_letter": "C",
     "answer_text": "90 metres.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "riding-posture"
+    ]
   },
   {
     "id": "682ee7b784b65a470cd6d417:67d106d2e3673a50102712a0",
@@ -3244,7 +3365,9 @@
     "answer_letter": "C",
     "answer_text": "Avoid it if possible",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "road-conditions"
+    ]
   },
   {
     "id": "682ee7b784b65a470cd6d417:67d1078eba7c5cbd1f2f21e4",
@@ -3337,7 +3460,9 @@
     "answer_letter": "A",
     "answer_text": "just before going up the slope.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "topic-competency"
+    ]
   },
   {
     "id": "682fec4b79ffe8bbec2a3931:6731ac05c9064112eadb58e9",
@@ -3354,7 +3479,9 @@
     "answer_letter": "A",
     "answer_text": "before going up a slope.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "gears"
+    ]
   },
   {
     "id": "682fec4b79ffe8bbec2a3931:673af16f25d25160d519989c",
@@ -3390,7 +3517,9 @@
     "answer_letter": "B",
     "answer_text": "Slow down a little because he may move out suddenly.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "topic-competency"
+    ]
   },
   {
     "id": "682fec4b79ffe8bbec2a3931:67d0f0bee6c56d64f155257b",
@@ -3469,7 +3598,8 @@
     "answer_text": "to go faster than desired.",
     "explanation": null,
     "conceptIds": [
-      "bend"
+      "bend",
+      "gears"
     ]
   },
   {
@@ -3488,7 +3618,10 @@
     "answer_text": "steering control and braking efficiency",
     "explanation": null,
     "conceptIds": [
-      "braking"
+      "braking",
+      "tyre",
+      "gear-clutch-throttle",
+      "road-conditions"
     ]
   },
   {
@@ -3506,7 +3639,9 @@
     "answer_letter": "A",
     "answer_text": "More power but lesser speed",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "gears"
+    ]
   },
   {
     "id": "682fec4b79ffe8bbec2a3931:67d105b75e7738adf6626631",
@@ -3545,8 +3680,10 @@
     "explanation": null,
     "conceptIds": [
       "expressway",
+      "lane-discipline",
       "overtaking",
-      "speed-limit"
+      "speed-limit",
+      "lane-position"
     ]
   },
   {
@@ -3585,7 +3722,8 @@
     "explanation": null,
     "conceptIds": [
       "expressway",
-      "overtaking"
+      "overtaking",
+      "keep-left"
     ]
   },
   {
@@ -3603,7 +3741,10 @@
     "answer_letter": "B",
     "answer_text": "Slow down and have sufficient treads on your tyres",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "tyre",
+      "road-conditions"
+    ]
   },
   {
     "id": "682fec4b79ffe8bbec2a3931:67d1078eba7c5cbd1f2f21e4",
@@ -3778,7 +3919,9 @@
     "answer_letter": "A",
     "answer_text": "Drowsiness.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "topic-competency"
+    ]
   },
   {
     "id": "6833beed2f0a7ff010213baf:67d0f1c32bd7fa4094849780",
@@ -3796,7 +3939,8 @@
     "answer_text": "Braking.",
     "explanation": null,
     "conceptIds": [
-      "braking"
+      "braking",
+      "tyre"
     ]
   },
   {
@@ -3834,7 +3978,9 @@
     "answer_letter": "B",
     "answer_text": "Slow down",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "road-conditions"
+    ]
   },
   {
     "id": "6833beed2f0a7ff010213baf:67d10397346de42dddeed8b5",
@@ -3871,7 +4017,9 @@
     "answer_letter": "B",
     "answer_text": "Slow down and watch out for traffic controllers and instructions.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "road-conditions"
+    ]
   },
   {
     "id": "6833beed2f0a7ff010213baf:67d10444b148cbb2a00c77d1",
@@ -3888,7 +4036,9 @@
     "answer_letter": "A",
     "answer_text": "stop and push the motorcycle to the side of the road.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "tyre"
+    ]
   },
   {
     "id": "6833beed2f0a7ff010213baf:67d105b75e7738adf6626631",
@@ -3907,7 +4057,8 @@
     "explanation": null,
     "conceptIds": [
       "braking",
-      "horn"
+      "horn",
+      "gear-clutch-throttle"
     ]
   },
   {
@@ -3964,7 +4115,9 @@
     "answer_text": "Aquaplaning",
     "explanation": null,
     "conceptIds": [
-      "rain"
+      "rain",
+      "tyre",
+      "road-conditions"
     ]
   },
   {
@@ -3982,7 +4135,9 @@
     "answer_letter": "B",
     "answer_text": "fail to recognize and adjust to it",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "topic-competency"
+    ]
   },
   {
     "id": "6833beed2f0a7ff010213baf:67d1078eba7c5cbd1f2f21e4",
@@ -4022,7 +4177,8 @@
       "bend",
       "braking",
       "motorcycle-control",
-      "skid"
+      "skid",
+      "tyre"
     ]
   },
   {
@@ -4060,7 +4216,9 @@
     "answer_letter": "B",
     "answer_text": "Slow down before the hazard",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "topic-competency"
+    ]
   },
   {
     "id": "6834108eb1501f0fca41701d:6731936427aeb3ce5c57f8e8",
@@ -4153,7 +4311,9 @@
     "answer_letter": "B",
     "answer_text": "turned on",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "move-off"
+    ]
   },
   {
     "id": "6834108eb1501f0fca41701d:67d0f1c32bd7fa4094849780",
@@ -4171,7 +4331,8 @@
     "answer_text": "before entering the bend",
     "explanation": null,
     "conceptIds": [
-      "bend"
+      "bend",
+      "gears"
     ]
   },
   {
@@ -4190,7 +4351,9 @@
     "answer_text": "ride at a slower speed",
     "explanation": null,
     "conceptIds": [
-      "rain"
+      "rain",
+      "tyre",
+      "road-conditions"
     ]
   },
   {
@@ -4208,7 +4371,9 @@
     "answer_letter": "A",
     "answer_text": "keep the handle bar in the straight ahead position",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "move-off"
+    ]
   },
   {
     "id": "6834108eb1501f0fca41701d:67d10397346de42dddeed8b5",
@@ -4225,7 +4390,9 @@
     "answer_letter": "A",
     "answer_text": "2nd gear",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "topic-competency"
+    ]
   },
   {
     "id": "6834108eb1501f0fca41701d:67d103dfba7c5cbd1f2e4912",
@@ -4247,7 +4414,8 @@
       "motorcycle-control",
       "road-shoulder",
       "signal",
-      "skid"
+      "skid",
+      "tyre"
     ]
   },
   {
@@ -4285,7 +4453,9 @@
     "answer_letter": "B",
     "answer_text": "Use your mirrors.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "topic-competency"
+    ]
   },
   {
     "id": "6834108eb1501f0fca41701d:67d105f9a748faa00fd55644",
@@ -4321,7 +4491,9 @@
     "answer_letter": "A",
     "answer_text": "sways from side to side",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "tyre"
+    ]
   },
   {
     "id": "6834108eb1501f0fca41701d:67d106d2e3673a50102712a0",
@@ -4340,7 +4512,8 @@
     "explanation": null,
     "conceptIds": [
       "braking",
-      "motorcycle-control"
+      "motorcycle-control",
+      "riding-posture"
     ]
   },
   {
@@ -4396,7 +4569,9 @@
     "answer_letter": "C",
     "answer_text": "keep more to the left and proceed carefully",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "topic-competency"
+    ]
   },
   {
     "id": "68351f44397a84e42dad983a:67318011edb5f0662805f0d8",
@@ -4413,7 +4588,9 @@
     "answer_letter": "B",
     "answer_text": "close the throttle, pull in the clutch lever fully and change gear",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "gear-clutch-throttle"
+    ]
   },
   {
     "id": "68351f44397a84e42dad983a:67318f8c27aeb3ce5c571ecd",
@@ -4568,7 +4745,9 @@
     "answer_letter": "B",
     "answer_text": "select a low gear",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "gear-clutch-throttle"
+    ]
   },
   {
     "id": "68351f44397a84e42dad983a:67d10397346de42dddeed8b5",
@@ -4585,7 +4764,9 @@
     "answer_letter": "C",
     "answer_text": "be upright and in contact with your body",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "move-off"
+    ]
   },
   {
     "id": "68351f44397a84e42dad983a:67d103dfba7c5cbd1f2e4912",
@@ -4602,7 +4783,9 @@
     "answer_letter": "A",
     "answer_text": "lean it slightly towards you",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "move-off"
+    ]
   },
   {
     "id": "68351f44397a84e42dad983a:67d10444b148cbb2a00c77d1",
@@ -4620,7 +4803,8 @@
     "answer_text": "keep it upright and turn the handlebar to the right",
     "explanation": null,
     "conceptIds": [
-      "motorcycle-control"
+      "motorcycle-control",
+      "move-off"
     ]
   },
   {
@@ -4638,7 +4822,9 @@
     "answer_letter": "A",
     "answer_text": "be sure you know where all the controls and switches are",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "protective-gear"
+    ]
   },
   {
     "id": "68351f44397a84e42dad983a:67d105f9a748faa00fd55644",
@@ -4655,7 +4841,9 @@
     "answer_letter": "A",
     "answer_text": "ride slowly.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "wind-weather"
+    ]
   },
   {
     "id": "68351f44397a84e42dad983a:67d1069659703608767cad4d",
@@ -4672,7 +4860,9 @@
     "answer_letter": "A",
     "answer_text": "low gear",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "road-conditions"
+    ]
   },
   {
     "id": "68351f44397a84e42dad983a:67d106d2e3673a50102712a0",
@@ -4728,7 +4918,10 @@
     "answer_letter": "B",
     "answer_text": "use a lower gear",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "road-conditions",
+      "gears"
+    ]
   },
   {
     "id": "68351f44397a84e42dad983a:67d107fd9a9b271dd2efc94a",
@@ -4766,7 +4959,8 @@
     "answer_text": "move faster",
     "explanation": null,
     "conceptIds": [
-      "bend"
+      "bend",
+      "gear-clutch-throttle"
     ]
   },
   {
@@ -4786,7 +4980,8 @@
     "explanation": null,
     "conceptIds": [
       "bend",
-      "braking"
+      "braking",
+      "gear-clutch-throttle"
     ]
   },
   {
@@ -4805,7 +5000,8 @@
     "answer_text": "change to a lower gear",
     "explanation": null,
     "conceptIds": [
-      "flood"
+      "flood",
+      "gears"
     ]
   },
   {
@@ -4902,7 +5098,9 @@
     "answer_letter": "B",
     "answer_text": "lean to the left",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "turning"
+    ]
   },
   {
     "id": "683662bd6dd7ac33fb27d108:673af16f25d25160d519989c",
@@ -4919,7 +5117,9 @@
     "answer_letter": "B",
     "answer_text": "slow down",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "road-conditions"
+    ]
   },
   {
     "id": "683662bd6dd7ac33fb27d108:67d0eff4186c9746b6e4f9ac",
@@ -4957,7 +5157,8 @@
     "answer_text": "step on the foot brake pedal",
     "explanation": null,
     "conceptIds": [
-      "braking"
+      "braking",
+      "gear-clutch-throttle"
     ]
   },
   {
@@ -4976,7 +5177,9 @@
     "answer_text": "the tyres",
     "explanation": null,
     "conceptIds": [
-      "motorcycle-control"
+      "motorcycle-control",
+      "tyre",
+      "gear-clutch-throttle"
     ]
   },
   {
@@ -4996,7 +5199,8 @@
     "explanation": null,
     "conceptIds": [
       "braking",
-      "motorcycle-control"
+      "motorcycle-control",
+      "tyre"
     ]
   },
   {
@@ -5033,7 +5237,9 @@
     "answer_letter": "A",
     "answer_text": "1st gear",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "gears"
+    ]
   },
   {
     "id": "683662bd6dd7ac33fb27d108:67d103dfba7c5cbd1f2e4912",
@@ -5050,7 +5256,9 @@
     "answer_letter": "A",
     "answer_text": "2nd gear",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "gears"
+    ]
   },
   {
     "id": "683662bd6dd7ac33fb27d108:67d10444b148cbb2a00c77d1",
@@ -5068,7 +5276,8 @@
     "answer_text": "4th gear",
     "explanation": null,
     "conceptIds": [
-      "braking"
+      "braking",
+      "gears"
     ]
   },
   {
@@ -5087,7 +5296,8 @@
     "answer_text": "Ride at a slower speed",
     "explanation": null,
     "conceptIds": [
-      "rain"
+      "rain",
+      "road-conditions"
     ]
   },
   {
@@ -5165,7 +5375,9 @@
     "answer_letter": "B",
     "answer_text": "whilst seated on the motorcycle",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "move-off"
+    ]
   },
   {
     "id": "683662bd6dd7ac33fb27d108:67d1078eba7c5cbd1f2f21e4",
@@ -5182,7 +5394,9 @@
     "answer_letter": "C",
     "answer_text": "Driver seat",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "topic-competency"
+    ]
   },
   {
     "id": "683662bd6dd7ac33fb27d108:67d107fd9a9b271dd2efc94a",
@@ -5200,7 +5414,8 @@
     "answer_text": "Going round a bend",
     "explanation": null,
     "conceptIds": [
-      "bend"
+      "bend",
+      "gear-clutch-throttle"
     ]
   },
   {
@@ -5237,7 +5452,9 @@
     "answer_letter": "B",
     "answer_text": "changing gears",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "gear-clutch-throttle"
+    ]
   },
   {
     "id": "683662bd6dd7ac33fb27d108:68352c70a990b6224d3828c7",
@@ -5274,7 +5491,8 @@
     "answer_text": "In the rain.",
     "explanation": null,
     "conceptIds": [
-      "rain"
+      "rain",
+      "night-visibility"
     ]
   },
   {
@@ -5350,7 +5568,9 @@
     "answer_letter": "A",
     "answer_text": "20 mm.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "motorcycle-maintenance"
+    ]
   },
   {
     "id": "6836c1c8f878ba84cbb587b8:6731ac05c9064112eadb58e9",
@@ -5367,7 +5587,10 @@
     "answer_letter": "A",
     "answer_text": "will reduce the chances of  breakdown.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "fire-emergency",
+      "motorcycle-maintenance"
+    ]
   },
   {
     "id": "6836c1c8f878ba84cbb587b8:673af16f25d25160d519989c",
@@ -5403,7 +5626,9 @@
     "answer_letter": "C",
     "answer_text": "10 mm to 20 mm",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "gear-clutch-throttle"
+    ]
   },
   {
     "id": "6836c1c8f878ba84cbb587b8:67d0f0bee6c56d64f155257b",
@@ -5477,7 +5702,9 @@
     "answer_letter": "B",
     "answer_text": "be easily seen by other road users.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "protective-gear"
+    ]
   },
   {
     "id": "6836c1c8f878ba84cbb587b8:67d10397346de42dddeed8b5",
@@ -5494,7 +5721,9 @@
     "answer_letter": "A",
     "answer_text": "to protect your eyes from dust particles.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "protective-gear"
+    ]
   },
   {
     "id": "6836c1c8f878ba84cbb587b8:67d103dfba7c5cbd1f2e4912",
@@ -5511,7 +5740,9 @@
     "answer_letter": "B",
     "answer_text": "to protect your hands from injury.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "protective-gear"
+    ]
   },
   {
     "id": "6836c1c8f878ba84cbb587b8:67d10444b148cbb2a00c77d1",
@@ -5529,7 +5760,8 @@
     "answer_text": "rear wheel to lock",
     "explanation": null,
     "conceptIds": [
-      "braking"
+      "braking",
+      "motorcycle-maintenance"
     ]
   },
   {
@@ -5569,7 +5801,8 @@
     "answer_text": "A sudden release of the clutch.",
     "explanation": null,
     "conceptIds": [
-      "braking"
+      "braking",
+      "gear-clutch-throttle"
     ]
   },
   {
@@ -5626,7 +5859,9 @@
     "answer_letter": "B",
     "answer_text": "the road is poorly lit.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "night-visibility"
+    ]
   },
   {
     "id": "6836c1c8f878ba84cbb587b8:67d107fd9a9b271dd2efc94a",
@@ -5643,7 +5878,9 @@
     "answer_letter": "B",
     "answer_text": "drive slower.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "road-conditions"
+    ]
   },
   {
     "id": "6836c1c8f878ba84cbb587b8:67d1069659703608767cad4d",
@@ -5743,7 +5980,8 @@
     "explanation": null,
     "conceptIds": [
       "braking",
-      "rain"
+      "rain",
+      "tyre"
     ]
   },
   {
@@ -5763,7 +6001,8 @@
     "explanation": null,
     "conceptIds": [
       "braking",
-      "flood"
+      "flood",
+      "tyre"
     ]
   },
   {
@@ -5804,7 +6043,8 @@
     "answer_text": "Move to the side, slow down or stop if necessary",
     "explanation": null,
     "conceptIds": [
-      "siren"
+      "siren",
+      "fire-emergency"
     ]
   },
   {
@@ -5841,7 +6081,10 @@
     "answer_letter": "B",
     "answer_text": "Not move the vehicles involved until the Police arrive",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "insurance",
+      "accident"
+    ]
   },
   {
     "id": "683822236f838064b3540579:67d10397346de42dddeed8b5",
@@ -5858,7 +6101,9 @@
     "answer_letter": "C",
     "answer_text": "Move your vehicles to the side of the road so as not to cause obstruction.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "accident"
+    ]
   },
   {
     "id": "683822236f838064b3540579:67d103dfba7c5cbd1f2e4912",
@@ -5954,7 +6199,9 @@
     "answer_letter": "B",
     "answer_text": "Enable you to change gear",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "gears"
+    ]
   },
   {
     "id": "683822236f838064b3540579:67d10749a5fdc2bbf2f3f374",
@@ -6089,7 +6336,9 @@
     "answer_text": "cause an accident",
     "explanation": null,
     "conceptIds": [
-      "braking"
+      "braking",
+      "gears",
+      "motorcycle-maintenance"
     ]
   },
   {
@@ -6108,7 +6357,8 @@
     "answer_text": "the clutch linings to wear out faster",
     "explanation": null,
     "conceptIds": [
-      "braking"
+      "braking",
+      "gear-clutch-throttle"
     ]
   },
   {
@@ -6169,7 +6419,8 @@
     "answer_text": "Steering and braking",
     "explanation": null,
     "conceptIds": [
-      "braking"
+      "braking",
+      "tyre"
     ]
   },
   {
@@ -6282,7 +6533,10 @@
     "answer_letter": "A",
     "answer_text": "third party risk",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "insurance",
+      "fire-emergency"
+    ]
   },
   {
     "id": "68466648654b48845d78f309:67d10397346de42dddeed8b5",
@@ -6300,7 +6554,8 @@
     "answer_text": "a white helmet and reflective clothing",
     "explanation": null,
     "conceptIds": [
-      "helmet"
+      "helmet",
+      "night-visibility"
     ]
   },
   {
@@ -6337,7 +6592,9 @@
     "answer_letter": "B",
     "answer_text": "Oil",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "topic-general-questions"
+    ]
   },
   {
     "id": "68466648654b48845d78f309:67d105b75e7738adf6626631",
@@ -6433,7 +6690,9 @@
     "answer_letter": "C",
     "answer_text": "Keep calm",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "courtesy"
+    ]
   },
   {
     "id": "68466648654b48845d78f309:67d107fd9a9b271dd2efc94a",
@@ -6471,7 +6730,8 @@
     "answer_text": "after the pillion rider is seated on the motorcycle",
     "explanation": null,
     "conceptIds": [
-      "pillion"
+      "pillion",
+      "move-off"
     ]
   },
   {
@@ -6509,7 +6769,8 @@
     "answer_text": "Dipped headlight",
     "explanation": null,
     "conceptIds": [
-      "dipped-headlights"
+      "dipped-headlights",
+      "night-visibility"
     ]
   },
   {
@@ -6528,7 +6789,8 @@
     "answer_text": "Dipped headlights",
     "explanation": null,
     "conceptIds": [
-      "dipped-headlights"
+      "dipped-headlights",
+      "night-visibility"
     ]
   },
   {
@@ -6589,7 +6851,8 @@
     "explanation": null,
     "conceptIds": [
       "bend",
-      "pillion"
+      "pillion",
+      "riding-posture"
     ]
   },
   {
@@ -6608,7 +6871,8 @@
     "answer_text": "at all times",
     "explanation": null,
     "conceptIds": [
-      "rain"
+      "rain",
+      "protective-gear"
     ]
   },
   {
@@ -6645,7 +6909,9 @@
     "answer_letter": "B",
     "answer_text": "Before a long journey",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "motorcycle-maintenance"
+    ]
   },
   {
     "id": "6848ff9a095c7f327aa1d12e:67d0f0bee6c56d64f155257b",
@@ -6662,7 +6928,9 @@
     "answer_letter": "B",
     "answer_text": "Lookout for traffic at every side road",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "topic-general-questions"
+    ]
   },
   {
     "id": "6848ff9a095c7f327aa1d12e:67d0f1c32bd7fa4094849780",
@@ -6679,7 +6947,9 @@
     "answer_letter": "A",
     "answer_text": "Stop your vehicle.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "accident"
+    ]
   },
   {
     "id": "6848ff9a095c7f327aa1d12e:67d10312618e82f7e1341ea0",
@@ -6735,7 +7005,8 @@
     "answer_text": "Dipped headlights.",
     "explanation": null,
     "conceptIds": [
-      "dipped-headlights"
+      "dipped-headlights",
+      "night-visibility"
     ]
   },
   {
@@ -6754,7 +7025,8 @@
     "answer_text": "Slow moving vehicles fail to keep left",
     "explanation": null,
     "conceptIds": [
-      "expressway"
+      "expressway",
+      "keep-left"
     ]
   },
   {
@@ -6773,7 +7045,8 @@
     "answer_text": "Good brakes and good tyres will shorten the stopping distance",
     "explanation": null,
     "conceptIds": [
-      "braking"
+      "braking",
+      "tyre"
     ]
   },
   {
@@ -6794,7 +7067,8 @@
     "conceptIds": [
       "ambulance",
       "overtaking",
-      "siren"
+      "siren",
+      "keep-left"
     ]
   },
   {
@@ -6812,7 +7086,9 @@
     "answer_letter": "B",
     "answer_text": "To help protect the environment against air pollution",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "motorcycle-maintenance"
+    ]
   },
   {
     "id": "6848ff9a095c7f327aa1d12e:67d1078eba7c5cbd1f2f21e4",
@@ -6829,7 +7105,9 @@
     "answer_letter": "A",
     "answer_text": "It helps other road users to see you",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "night-visibility"
+    ]
   },
   {
     "id": "6848ff9a095c7f327aa1d12e:67d107fd9a9b271dd2efc94a",
@@ -6886,7 +7164,9 @@
     "answer_letter": "C",
     "answer_text": "Daily before driving off",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "vehicle-lights"
+    ]
   },
   {
     "id": "6848ff9a095c7f327aa1d12e:683826fd126999283ed6b760",
@@ -6922,7 +7202,9 @@
     "answer_letter": "A",
     "answer_text": "exhaust emissions",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "motorcycle-maintenance"
+    ]
   },
   {
     "id": "6848ff9a095c7f327aa1d12e:684902ad095c7f327aa264c3",
@@ -6998,7 +7280,9 @@
     "answer_letter": "C",
     "answer_text": "1.5 metres between your vehicle and the vehicle you are passing.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "topic-road-safety"
+    ]
   },
   {
     "id": "684aa0d296f20e38e9c864c2:6731ac05c9064112eadb58e9",
@@ -7036,7 +7320,8 @@
     "explanation": null,
     "conceptIds": [
       "cyclist",
-      "overtaking"
+      "overtaking",
+      "load-carrying"
     ]
   },
   {
@@ -7054,7 +7339,9 @@
     "answer_letter": "B",
     "answer_text": "right before turning.",
     "explanation": null,
-    "conceptIds": []
+    "conceptIds": [
+      "topic-road-safety"
+    ]
   },
   {
     "id": "684aa0d296f20e38e9c864c2:67d0f0bee6c56d64f155257b",
@@ -7074,7 +7361,8 @@
     "conceptIds": [
       "junction",
       "signal",
-      "traffic-light"
+      "traffic-light",
+      "move-off"
     ]
   },
   {
@@ -7114,7 +7402,8 @@
     "explanation": null,
     "conceptIds": [
       "cyclist",
-      "junction"
+      "junction",
+      "carriageway"
     ]
   },
   {
@@ -7154,7 +7443,8 @@
     "answer_text": "The cyclist may swerve out into the road.",
     "explanation": null,
     "conceptIds": [
-      "cyclist"
+      "cyclist",
+      "turning"
     ]
   },
   {
@@ -7197,7 +7487,8 @@
     "explanation": null,
     "conceptIds": [
       "cyclist",
-      "horn"
+      "horn",
+      "turning"
     ]
   },
   {
@@ -7277,7 +7568,8 @@
     "conceptIds": [
       "horn",
       "overtaking",
-      "signal"
+      "signal",
+      "turning"
     ]
   },
   {
@@ -7345,7 +7637,8 @@
       "cyclist",
       "horn",
       "junction",
-      "overtaking"
+      "overtaking",
+      "turning"
     ]
   },
   {
@@ -7470,7 +7763,8 @@
     "conceptIds": [
       "cyclist",
       "junction",
-      "overtaking"
+      "overtaking",
+      "turning"
     ]
   },
   {
@@ -7491,7 +7785,8 @@
     "conceptIds": [
       "cyclist",
       "horn",
-      "parking"
+      "parking",
+      "gears"
     ]
   }
 ]

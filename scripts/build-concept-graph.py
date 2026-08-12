@@ -1,5 +1,6 @@
 import json
 import math
+import re
 from collections import Counter, defaultdict
 from pathlib import Path
 import networkx as nx
@@ -18,8 +19,8 @@ CONCEPTS = [
     ('bus-lane', 'Bus Lane', ['bus lane']),
     ('cyclist', 'Cyclist', ['cyclist', 'cyclists', 'bicycle']),
     ('demerit-points', 'Demerit Points', ['demerit', 'demerit points']),
-    ('dipped-headlights', 'Dipped Headlights', ['dipped', 'headlight']),
-    ('distance', 'Safe Distance', ['tailgating', 'following distance', 'too close']),
+    ('dipped-headlights', 'Dipped Headlights', ['dipped', 'headlight', 'headlamps']),
+    ('distance', 'Safe Distance', ['tailgating', 'following distance', 'too close', 'vehicle in front', 'between you and the vehicle']),
     ('emergency-vehicle', 'Emergency Vehicle', ['emergency vehicle', 'emergency vehicles']),
     ('expressway', 'Expressway', ['expressway']),
     ('filter-lane', 'Filter Lane', ['filter lane']),
@@ -28,7 +29,7 @@ CONCEPTS = [
     ('helmet', 'Helmet', ['helmet']),
     ('horn', 'Horn', ['horn']),
     ('junction', 'Junction', ['junction', 'intersection']),
-    ('lane-discipline', 'Lane Discipline', ['lane discipline', 'lane change', 'change lane']),
+    ('lane-discipline', 'Lane Discipline', ['lane discipline', 'lane change', 'change lane', 'switching lanes', 'switch lane', 'two lanes']),
     ('lorry', 'Lorry / Heavy Vehicle', ['lorry', 'heavy vehicle']),
     ('motorcycle-control', 'Motorcycle Control', ['handlebar', 'balance', 'control of', 'skid']),
     ('overtaking', 'Overtaking', ['overtake', 'overtaking']),
@@ -50,6 +51,34 @@ CONCEPTS = [
     ('traffic-light', 'Traffic Light', ['traffic light', 'red light', 'amber light', 'green light']),
     ('u-turn', 'U-Turn', ['u-turn', 'u turn']),
     ('zebra-crossing', 'Crossing', ['zebra crossing', 'pedestrian crossing', 'crossing']),
+    # More specific concepts identified from the untagged set
+    ('reaction-time', 'Reaction Time', ['reaction time']),
+    ('two-second-rule', 'Two-second Rule', ['two-second rule', 'two second rule']),
+    ('carriageway', 'Carriageway', ['carriageway']),
+    ('keep-left', 'Keep Left', ['keep to the left', 'keep left']),
+    ('turning', 'Turning', ['turn right', 'turn left', 'turning right', 'turning left']),
+    ('road-marking', 'Road Marking', ['road marking', 'yellow line', 'white line', 'broken line', 'double white']),
+    ('mirror-signal-manoeuvre', 'Mirror Signal Manoeuvre', ['manoeuvre']),
+    ('tyre', 'Tyre', ['tyre', 'tire']),
+    ('night-visibility', 'Night / Visibility', ['fog', 'haze', 'at night', 'in the dark']),
+    ('licence', 'Licence', ['licence', 'license']),
+    ('insurance', 'Insurance', ['insurance']),
+    ('load-carrying', 'Load / Luggage', ['load', 'luggage']),
+    ('gear-clutch-throttle', 'Gear / Clutch / Throttle', ['clutch', 'throttle']),
+    ('lane-position', 'Lane Position', ['two lanes', 'lane position', 'right-hand lane', 'left-hand lane', 'switching lanes', 'switch lane']),
+    ('road-conditions', 'Road Conditions', ['road repairs', 'sandy road', 'uneven road', 'narrow and winding road', 'oily patch', 'puddle', 'built-up area', 'aquaplaning']),
+    ('fatigue', 'Fatigue / Sleep', ['sleepy', 'drowsy', 'tired']),
+    ('fire-emergency', 'Fire / Emergency', ['catches fire', 'fire', 'on fire']),
+    ('vehicle-lights', 'Vehicle Lights', ['rear lights', 'lights are working', 'light not working']),
+    ('riding-posture', 'Riding Posture', ['both knees', 'both of your feet', 'rest the', 'sit well', 'sit upright', 'look ahead', 'riding position']),
+    ('gears', 'Gears', ['change down to', 'lower gear', 'which gear', 'gear lever', 'free wheeling', 'higher gear']),
+    ('move-off', 'Move Off / Stand', ['move off', 'main stand', 'fuel valve', 'pushing your motorcycle', 'release the motorcycle']),
+    ('wind-weather', 'Wind / Weather', ['windy conditions', 'windy', 'gust of wind', 'side wind']),
+    ('protective-gear', 'Protective Gear', ['slippers', 'gloves', 'visor or goggles', 'bright coloured', 'protective clothing']),
+    ('motorcycle-maintenance', 'Motorcycle Maintenance', ['pre-driving checks', 'engine oil', 'drive chain', 'catalytic converter', 'exhaust emission']),
+    ('accident', 'Accident Procedure', ['involved in an accident', 'no one is injured', 'exchange particulars']),
+    ('courtesy', 'Courtesy', ['causes inconvenience', 'discourteous', 'road rage']),
+    ('documents-penalties', 'Documents / Penalties', ['suspended from driving', 'disqualified']),
 ]
 
 TOPIC_COLORS = {
@@ -98,6 +127,19 @@ for cid, label, aliases in CONCEPTS:
         if any(normalize(a) in q['_blob'] for a in aliases):
             q['conceptIds'].append(cid)
 
+# Fallback: every question must appear in at least one node. If a question matches
+# none of the specific concepts above, it falls back to a topic bucket node.
+concept_labels = {cid: label for cid, label, aliases in CONCEPTS}
+fallback_ids = {}
+for q in questions:
+    if not q['conceptIds']:
+        t = topic(q['category'])
+        fid = f'topic-{re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")}'
+        if fid not in fallback_ids:
+            fallback_ids[fid] = t
+        q['conceptIds'].append(fid)
+concept_labels.update(fallback_ids)
+
 concept_counts = Counter()
 concept_cats = defaultdict(Counter)
 concept_qids = defaultdict(list)
@@ -117,6 +159,8 @@ for q in questions:
             a, b = cids[i], cids[j]
             if a == b:
                 continue
+            if a.startswith('topic-') or b.startswith('topic-'):
+                continue
             key = tuple(sorted((a, b)))
             edge_counts[key] += 1
             edge_cats[key][cat] += 1
@@ -124,18 +168,18 @@ for q in questions:
 
 # Build graph for layout
 G = nx.Graph()
-for cid, label, aliases in CONCEPTS:
+for cid in sorted(concept_counts):
     if concept_counts[cid] == 0:
         continue
-    primary_cat = concept_cats[cid].most_common(1)[0][0]
+    primary_cat = concept_cats[cid].most_common(1)[0][0] if concept_cats[cid] else 'Unknown'
     G.add_node(
         cid,
-        label=label,
+        label=concept_labels.get(cid, cid),
         count=concept_counts[cid],
         category=primary_cat,
         topic=topic(primary_cat),
         color=topic_color(primary_cat),
-        questionIds=concept_qids[cid][:50],
+        questionIds=concept_qids[cid],
     )
 
 raw_edges = []
@@ -264,6 +308,13 @@ graph = {
     'layouts': layouts,
 }
 
+# Build-time coverage guard: every question must be reachable from at least one node
+reachable = set()
+for n in nodes:
+    reachable.update(n['questionIds'])
+missing = [q['id'] for q in questions if q['id'] not in reachable]
+assert not missing, f'{len(missing)} question(s) not in any node: {missing[:5]}'
+
 OUT_GRAPH.write_text(json.dumps(graph, indent=2))
 
 for q in questions:
@@ -272,3 +323,8 @@ OUT_QS.write_text(json.dumps(questions, indent=2))
 
 print(f'Wrote {len(nodes)} nodes and {len(edges)} edges to {OUT_GRAPH}')
 print(f'Wrote {len(questions)} tagged questions to {OUT_QS}')
+print(f'Coverage: {len(reachable)}/{len(questions)} questions reachable from at least one node')
+
+# Coverage report per node for sanity checking
+pool_sizes = sorted(len(n['questionIds']) for n in nodes)
+print(f'Pool sizes: min={pool_sizes[0]}, median={pool_sizes[len(pool_sizes)//2]}, max={pool_sizes[-1]}')

@@ -66,38 +66,6 @@
   background: var(--accent-dim);
 }
 
-.graph-switch {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-family: var(--font-mono);
-  font-size: 11px;
-  color: var(--text-dim);
-}
-
-.graph-switch span {
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin-right: 4px;
-  cursor: help;
-}
-
-.graph-switch button {
-  padding: 4px 8px;
-  background: transparent;
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  color: var(--text);
-  cursor: pointer;
-  font-size: 11px;
-}
-
-.graph-switch button.active,
-.graph-switch button:hover {
-  border-color: var(--accent);
-  color: var(--accent);
-}
-
 .app-stats {
   display: flex;
   gap: 18px;

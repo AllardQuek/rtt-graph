@@ -1,13 +1,14 @@
-import { useMemo, useState } from 'react'
+import { useState } from 'react'
 import { useGameData } from './hooks/useGameData'
 import { useStats } from './hooks/useStats'
 import { RoadNetwork } from './components/RoadNetwork'
 import { Runner } from './components/Runner'
 import { NodeChallenge } from './components/NodeChallenge'
+import { selectForNode, selectForRide } from './lib/selection'
 import './App.css'
 
 const TABS = [
-  { key: 'road', label: 'Course Map', title: 'Explore the connected riding concepts and clear junctions' },
+  { key: 'road', label: 'Course Map', title: 'Explore the connected riding concepts and master junctions' },
   { key: 'runner', label: 'Free Ride', title: 'Ride through random hazards without stopping' },
   { key: 'junction', label: 'Junction Drill', title: 'Focus on one junction at a time' },
 ]
@@ -22,26 +23,17 @@ function Loading() {
 }
 
 function App() {
-  const { loading, questions, graph, nlpGraph, error } = useGameData()
-  const { stats, clearNode, recordAnswer, recordRun } = useStats()
+  const { loading, questions, graph, error } = useGameData()
+  const { stats, recordAnswer, recordRun, masteredTotal } = useStats()
   const [tab, setTab] = useState('road')
-  const [graphKey, setGraphKey] = useState('keyword')
   const [activeNode, setActiveNode] = useState(null)
   const [runnerNode, setRunnerNode] = useState(null)
-
-  const activeGraph = graphKey === 'keyword' ? graph : nlpGraph
-
-  const allRunnerQuestions = useMemo(() => {
-    return [...questions].sort(() => Math.random() - 0.5).slice(0, 10)
-  }, [questions])
 
   if (loading) return <Loading />
   if (error) return <div className="app-loading">Failed to load data: {error}</div>
 
   const accuracy = stats.totalAnswered ? Math.round((stats.totalCorrect / stats.totalAnswered) * 100) : 0
-  const clearedInActive = activeGraph
-    ? activeGraph.nodes.filter(n => stats.clearedNodes.includes(n.id)).length
-    : 0
+  const totalMastered = masteredTotal()
 
   return (
     <div className="app">
@@ -66,21 +58,12 @@ function App() {
             </button>
           ))}
         </nav>
-        <div className="graph-switch">
-          <span data-tip="Switch between the hand-curated keyword graph and the NLP-extracted graph">Graph</span>
-          <button className={graphKey === 'keyword' ? 'active' : ''} onClick={() => setGraphKey('keyword')}>
-            Keyword
-          </button>
-          <button className={graphKey === 'nlp' ? 'active' : ''} onClick={() => setGraphKey('nlp')}>
-            NLP
-          </button>
-        </div>
         <div className="app-stats">
           <div className="stat" data-tip="Percentage of all questions answered correctly across Course Map and races">
             <span>ACC</span>{accuracy}%
           </div>
-          <div className="stat" data-tip="Junctions fully cleared (3 correct answers) out of all junctions">
-            <span>CLEARED</span>{clearedInActive}/{activeGraph?.nodes.length || 0}
+          <div className="stat" data-tip="Questions answered correctly at least once out of the full bank">
+            <span>MASTERED</span>{totalMastered}/{questions.length}
           </div>
           <div className="stat" data-tip="Highest score achieved in Free Ride or Junction Drill">
             <span>BEST RUN</span>{stats.bestRun}
@@ -91,8 +74,7 @@ function App() {
       <main className="app-body">
         {tab === 'road' && (
           <RoadNetwork
-            key={graphKey}
-            graph={activeGraph}
+            graph={graph}
             stats={stats}
             onActivate={setActiveNode}
             title="Course Map"
@@ -102,7 +84,8 @@ function App() {
 
         {tab === 'runner' && (
           <Runner
-            questions={allRunnerQuestions}
+            getQuestions={() => selectForRide(questions, stats, 10)}
+            plannedCount={10}
             onDone={recordRun}
             onClose={() => {}}
             onAnswer={recordAnswer}
@@ -113,8 +96,7 @@ function App() {
 
         {tab === 'junction' && (
           <RoadNetwork
-            key={graphKey}
-            graph={activeGraph}
+            graph={graph}
             stats={stats}
             onActivate={setRunnerNode}
             title="Junction Drill"
@@ -128,22 +110,17 @@ function App() {
         <NodeChallenge
           node={activeNode}
           allQuestions={questions}
+          stats={stats}
           onAnswer={recordAnswer}
           onClose={() => setActiveNode(null)}
-          onClear={(id) => {
-            clearNode(id)
-            setActiveNode(null)
-          }}
         />
       )}
 
       {runnerNode && (
         <div className="runner-modal">
           <Runner
-            questions={[...questions]
-              .filter(q => runnerNode.questionIds.includes(q.id))
-              .sort(() => Math.random() - 0.5)
-              .slice(0, 5)}
+            getQuestions={() => selectForNode(runnerNode.questionIds, stats, 5).questions.map(id => questions.find(q => q.id === id)).filter(Boolean)}
+            plannedCount={5}
             onDone={(score) => {
               recordRun(score)
               setRunnerNode(null)

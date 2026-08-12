@@ -35,14 +35,16 @@ function Bike({ size = 56 }) {
   )
 }
 
-export function Runner({ questions, onDone, onClose, onAnswer, title = 'Free Ride', showClose = true }) {
+export function Runner({ getQuestions, plannedCount = 10, onDone, onClose, onAnswer, title = 'Free Ride', showClose = true }) {
   const [game, setGame] = useState({ phase: 'ready' })
   const timerRef = useRef(null)
 
   const start = () => {
+    const questions = getQuestions()
     if (!questions.length) return
     setGame({
       phase: 'running',
+      questions,
       index: 0,
       question: questions[0],
       hazardY: HAZARD_START,
@@ -60,7 +62,7 @@ export function Runner({ questions, onDone, onClose, onAnswer, title = 'Free Rid
   const goNext = useCallback(() => {
     setGame(prev => {
       const nextIndex = prev.index + 1
-      if (nextIndex >= questions.length || prev.lives <= 0) {
+      if (nextIndex >= prev.questions.length || prev.lives <= 0) {
         if (onDone) onDone(prev.score)
         return { ...prev, phase: 'over' }
       }
@@ -68,7 +70,7 @@ export function Runner({ questions, onDone, onClose, onAnswer, title = 'Free Rid
         ...prev,
         phase: 'running',
         index: nextIndex,
-        question: questions[nextIndex],
+        question: prev.questions[nextIndex],
         hazardY: HAZARD_START,
         timeLeft: DECISION_TIME,
         selected: null,
@@ -77,13 +79,13 @@ export function Runner({ questions, onDone, onClose, onAnswer, title = 'Free Rid
         speed: 8 + nextIndex * 0.5,
       }
     })
-  }, [onDone, questions])
+  }, [onDone])
 
   const applyResult = useCallback((prev, correct, selected) => {
-    onAnswer?.(correct)
+    onAnswer?.(correct, prev.question.id)
     const newLives = correct ? prev.lives : prev.lives - 1
     const newScore = correct ? prev.score + 100 + Math.floor(prev.timeLeft * 15) : prev.score
-    const isOver = newLives <= 0 || prev.index >= questions.length - 1
+    const isOver = newLives <= 0 || prev.index >= prev.questions.length - 1
     const feedback = correct
       ? 'Clean pass!'
       : `Hit! Correct: ${prev.question.answer_letter}) ${prev.question.answer_text}`
@@ -97,7 +99,7 @@ export function Runner({ questions, onDone, onClose, onAnswer, title = 'Free Rid
       isCorrect: correct,
       feedback,
     }
-  }, [onAnswer, onDone, questions])
+  }, [onAnswer, onDone])
 
   const pick = useCallback((letter) => {
     setGame(prev => {
@@ -121,7 +123,7 @@ export function Runner({ questions, onDone, onClose, onAnswer, title = 'Free Rid
       }, 30)
       return () => clearInterval(id)
     }
-  }, [game.phase, onAnswer, onDone, questions.length])
+  }, [game.phase])
 
   useEffect(() => {
     if (game.phase === 'deciding') {
@@ -130,9 +132,9 @@ export function Runner({ questions, onDone, onClose, onAnswer, title = 'Free Rid
         setGame(prev => {
           if (prev.phase !== 'deciding') return prev
           if (prev.timeLeft <= 0.12) {
-            onAnswer?.(false)
+            onAnswer?.(false, prev.question.id)
             const newLives = prev.lives - 1
-            const isOver = newLives <= 0 || prev.index >= questions.length - 1
+            const isOver = newLives <= 0 || prev.index >= prev.questions.length - 1
             const feedback = `Too slow! Correct: ${prev.question.answer_letter}) ${prev.question.answer_text}`
             if (isOver && onDone) onDone(prev.score)
             return { ...prev, phase: isOver ? 'over' : 'feedback', lives: newLives, timeLeft: 0, selected: null, isCorrect: false, feedback }
@@ -142,7 +144,7 @@ export function Runner({ questions, onDone, onClose, onAnswer, title = 'Free Rid
       }, 100)
       return () => clearInterval(timerRef.current)
     }
-  }, [game.phase, onAnswer, onDone, questions.length])
+  }, [game.phase, onAnswer, onDone])
 
   useEffect(() => {
     if (game.phase === 'feedback') {
@@ -165,7 +167,7 @@ export function Runner({ questions, onDone, onClose, onAnswer, title = 'Free Rid
     return (
       <div className="runner-screen ready">
         <h2>{title}</h2>
-        <p className="runner-blurb">{questions.length} hazards ahead. Answer before impact. 1/2/3 or A/B/C to choose.</p>
+        <p className="runner-blurb">{plannedCount} hazards ahead. Answer before impact. 1/2/3 or A/B/C to choose.</p>
         <button className="runner-btn" onClick={start}>Start Engine</button>
         {showClose && <button className="runner-btn ghost" onClick={onClose}>Back</button>}
       </div>
@@ -189,13 +191,14 @@ export function Runner({ questions, onDone, onClose, onAnswer, title = 'Free Rid
   const q = game.question
   const deciding = game.phase === 'deciding'
   const feedback = game.phase === 'feedback'
+  const total = game.questions?.length ?? plannedCount
 
   return (
     <div className="runner-screen">
       <div className="runner-hud">
         <div className="hud-block">SCORE <span>{game.score}</span></div>
         <div className="hud-block">LIVES <span>{'◆'.repeat(Math.max(0, game.lives))}</span></div>
-        <div className="hud-block">HAZARD <span>{game.index + 1}/{questions.length}</span></div>
+        <div className="hud-block">HAZARD <span>{game.index + 1}/{total}</span></div>
       </div>
 
       <div className="runner-track">
